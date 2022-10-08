@@ -1,0 +1,101 @@
+.family-histories {
+    background-color: rgba(255,255,255,0.66);
+    border-radius: 6px;
+    width: 100%;
+    padding: 22px 19px 34px;
+    box-sizing: border-box;
+    margin-bottom: 4px;
+
+}
+
+.family-histories-date {
+    /*width: 81px;*/
+    /*height: 22px;*/
+    border-radius: 11.5px;
+    background-color: #F1E2C7;
+    display: flex;
+    flex-flow: row nowrap;
+    padding-right: 8px;
+}
+
+.family-histories-date > div {
+    text-align: center;
+    /*line-height: 2;*/
+}
+
+.family-histories-date > div:last-child {
+    font-size: 8px;
+    color: #CF9D85;
+}
+
+.family-histories-date > div:first-child {
+    width: 23px;
+    /*height: 23px;*/
+    border-radius: 11.5px;
+    background-color: #CF9D85;
+    padding: 5px 0px;
+}
+
+.family-histories-content {
+    border-bottom: 1px solid rgba(151, 151, 151, 0.2);
+    margin-bottom: 23px;
+    /*padding-bottom: 6px;*/
+}
+
+.family-histories-content > p {
+    text-indent: 2em;
+    color: #666666;
+}
+
+.family-histories-content > p:first-child {
+    font-size: 10.5px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.family-histories-content > p:last-child {
+    font-size: 9px;
+    line-height: 1.5;
+}
+
+.family-histories-top {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 7.5px;
+}
+
+.family-histories-top > img {
+    width: 9px;
+    height: 40px;
+    position: absolute;
+    top: -34px;
+}
+
+.family-histories-top > img:first-child {
+    left: 0;
+}
+
+.family-histories-top > img:last-child {
+    right: 0;
+}
+
+.family-histories-btn {
+    margin-top: 26px;
+    /*margin-bottom: 16px;*/
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px 0;
+    background-color: #CF9D85;
+}
+
+
+

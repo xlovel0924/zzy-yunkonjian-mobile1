@@ -1,0 +1,50 @@
+.family-minutes {
+    background-color: rgba(255,255,255,0.66);
+    border-radius: 6px;
+    width: 100%;
+    padding: 22px 19px 30px;
+    box-sizing: border-box;
+    margin-bottom: 4px;
+}
+
+.family-minutes-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.family-minutes-btn {
+    margin-top: 26px;
+    /*margin-bottom: 16px;*/
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px 0;
+    background-color: #CF9D85;
+}
+
+.family-minutes-step {
+    border-left: 1px solid #CF9D85;
+    position: relative;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.family-minutes-step-top {
+    width: 6px;
+    height: 6px;
+    background-color: #CF9D85;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    transform: translateX(-50%);
+}
+
+.family-minutes-step-last {
+    border-left: none;
+}
+

@@ -1,0 +1,50 @@
+.biography-publicity{
+    overflow: hidden;
+    background-image: url("../../../assets/img/life-biography/publicity-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    transform: scale(1);
+}
+
+.biography-publicity-desc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15vh;
+    align-items: flex-start;
+}
+
+.biography-publicity-desc>span{
+    display: block;
+    writing-mode: vertical-lr;
+    color: #3A394D;
+}
+
+.biography-publicity-desc>span:first-child{
+    font-size: 18px;
+    font-weight: Medium;
+    margin-right: 8px;
+    letter-spacing: 2px;
+}
+
+.biography-publicity-desc>span:last-child{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 12px;
+    margin-top: 40px;
+}
+
+.biography-publicity-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
+}
+
+.biography-publicity-icon>img{
+    width: 260px;
+}

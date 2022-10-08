@@ -1,0 +1,29 @@
+#tree > svg {
+    background: url(../../assets/img/yun-family-tree/bg.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+table {
+    margin-top: 40px !important;
+}
+
+div.bft-light .bft-input>input{
+    width: 264px;
+    height: 33px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 10px;
+    border-radius: 14px;
+    z-index: 2;
+}
+
+.bft-light .bft-input>label.focused, .bft-dark .bft-input>label.focused {
+    /*color: green !important;*/
+    display: none;
+}
+.bft-light .bft-input>label, .bft-dark .bft-input>label {
+    /*left: 34px;*/
+    /*z-index: 1;*/
+    display: none;
+}

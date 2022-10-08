@@ -1,0 +1,89 @@
+.homeConten {
+   position: relative;
+  }
+  
+  .homeFoot {
+   position: absolute;
+   width: 375px;
+   height: 67px;
+   background: #000000;
+   opacity: 0.45;
+   bottom: 0;
+   color: #FFFFFF;
+  }
+  
+  .homediyimg {
+   position: absolute;
+   top: 57%;
+   left: 84%;
+   width: 10%;
+   background-color: #000000;
+   border-radius: 50%;
+  }
+  /* <<<<<<< HEAD */
+  
+  .homediyimg img {
+   width: 100%;
+  }
+  
+  .textpone {
+   display: flex;
+   justify-content: space-around;
+  }
+  
+  .textpone div {
+   width: 10%;
+  
+  }
+  
+  .textpone img {
+   width: 100%;
+  
+  }
+  /* ======= */
+  .homediyimg img{
+  width: 100%;
+  }
+  
+  .yun1{
+   height: 850px;
+   width: 600px;
+  position: absolute;
+   z-index: 1;
+   animation:myfirst 18s;
+   -webkit-animation:myfirst 18s; /* Safari and Chrome */
+   animation-fill-mode:forwards;
+  
+  }
+  /* cursor:pointer; */
+  .yun1:hover{
+   cursor:pointer;
+  }
+  .yun2:hover{
+   cursor:pointer;
+  }
+  .yun2{
+   /* border: 1px solid red; */
+   height: 850px;
+   width: 600px;
+   position: absolute;
+   z-index: 2;
+   animation:myfirst2 18s;
+   -webkit-animation:myfirst2 18s; /* Safari and Chrome */
+   animation-fill-mode:forwards;
+  
+  }
+  .ifra{
+   border: medium none;
+  }
+  
+  @keyframes myfirst
+  {
+  0%  {left: -160px;opacity: 2;}
+  100% {left:660px;opacity: 0;}
+  }  
+  @keyframes myfirst2
+  {
+  0%  {left: -460px;opacity: 2;}
+  100% {left:410px;opacity: 0;}
+  }

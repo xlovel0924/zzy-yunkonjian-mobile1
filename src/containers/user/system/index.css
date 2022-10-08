@@ -1,0 +1,72 @@
+.r-system{
+  background-color: #fff;
+}
+.system-content{    
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    touch-action: none;
+  }
+  .system-content .am-list{
+    position: absolute;
+    bottom: 120px;
+    width: 100%;
+  }
+  
+  .logout{
+    position: absolute !important;
+    font-size: 15px;
+    bottom: 50px;
+    left: 50px;
+    width: calc(100% - 100px);
+    height: 42px;
+    line-height: 42px;
+  }
+  .logout:active{
+    background: #b0b8e7;
+  }
+  .logout::before{
+    border: 1PX solid #27A9E3 !important;
+  }
+  .system-circular{
+    width: 236px;
+    height: 236px;
+    border-radius: 50%;
+    border: 2PX solid #27A9E3 !important;
+    margin: 96px auto 0px;
+    text-align: center;
+  }
+  .circular-img{
+    margin: 44px auto 28px;
+  }
+  .circular-text{
+    font-size: 14px;
+    padding: 5px;
+  }
+  
+  .system-content .am-list-item{
+    padding: 0 12px;
+  }
+
+  .am-modal-button-group-h .am-modal-button{
+    color: #4661FF;
+  }
+
+  .r-system .am-list-body{
+    border-top: 0;
+    border-bottom: 0;
+  }
+
+  .r-system .am-list-body div .am-list-line{
+    border-bottom: 1px solid #e8e8e8;
+  }
+
+  .r-system .am-list-item .am-list-line .am-list-content{
+    padding: 16px 0 12px 38px;
+  }
+
+  .r-system .am-list-item .am-list-line .am-list-arrow{
+    margin-left: 0;
+    margin-right: 10px;
+  }

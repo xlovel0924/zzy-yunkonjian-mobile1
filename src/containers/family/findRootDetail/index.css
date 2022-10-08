@@ -1,0 +1,19 @@
+.find-root-detail {
+    background: url(../../../assets/img/yun-find-root/bg.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;bottom: 0;
+    left: 0;right: 0;
+    padding: 0 20px;
+    color: #6B6B6B;
+}
+
+.find-detail-content {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px 20px 30px;
+    border-radius: 6px;
+}
+
+.find-detail-content > div:nth-child(2) {
+    line-height: 2;
+}

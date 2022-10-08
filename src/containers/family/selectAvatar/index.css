@@ -1,0 +1,95 @@
+.select-avatar  {
+    background: url(../../../assets/img/yun-find-root/bg.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;bottom: 0;
+    left: 0;right: 0;
+    color: #6B6B6B;
+}
+
+.select-avatar-top {
+    width: 100%;
+    height: 282px;
+    position: relative;
+    /*border: 1px solid #000;*/
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.select-avatar-top > div:first-child {
+    position: absolute;
+    top: 16px;
+    left: 13px;
+    border-radius: 3px;
+    color: #ffffff;
+    background-color: rgba(207, 157, 133, 0.4);
+    width: 66px;
+    padding: 3px 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.select-avatar-item {
+    box-sizing: border-box;
+    padding: 12px 14px;
+}
+
+.select-avatar-item > div:first-child {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4px;
+    color: #3A394D;
+    font-size: 12px;
+}
+
+/*.select-avatar-item > div > div:last-child {*/
+/*    border-radius: 3px;*/
+/*    color: #ffffff;*/
+/*    text-align: center;*/
+/*    padding: 3px 0;*/
+/*    !*width: 66px;*!*/
+/*    background-color: #CF9D85;*/
+/*}*/
+
+.select-avatar-pic {
+    width: 25%;
+    padding-right: 10px;
+    /*height: 80px;*/
+    margin-top: 12px;
+    box-sizing: border-box;
+}
+
+
+
+.select-avatar-item > div:nth-child(2){
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-left: 10px;
+    /*justify-content: space-between;*/
+}
+
+.select-avatar-item > div:nth-child(2)::after {
+    content: '';
+    width: 20%;
+    height: 0;
+    visibility: hidden;
+}
+
+.select-avatar-top > img {
+    width: 100%;
+}
+
+.select-avatar-pic > img {
+    width: 100%;
+}
+
+.select-avatar-item .select-avatar-pic {
+    /*margin-right: 10px;*/
+}
+
+.select-avatar-item .select-avatar-pic:nth-child(4n) {
+    /*padding-right: 0;*/
+}

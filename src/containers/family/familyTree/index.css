@@ -1,0 +1,132 @@
+.family-tree {
+    background: url(../../../assets/img/yun-family-tree/bg.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;bottom: 0;
+    left: 0;right: 0;
+    z-index: 0;
+}
+
+.family-tree .search {
+    background-color: #fff !important;
+    border-radius: 14px;
+    height: 32px !important;
+    min-height: 32px;
+    width: 100%;
+    flex: 1;
+    padding: 0 -20px;
+    box-sizing: border-box;
+}
+
+.family-top {
+    position: absolute;
+    top: 29px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 0 25px;
+    box-sizing: border-box;
+}
+
+.options-modal {
+    padding: 17px 20px;
+    text-align: center;
+    color: #3A394D;
+}
+
+.options-modal > div {
+    margin-top: 7px;
+}
+
+.ptb-10 {
+    border-radius: 15px;
+    background-color: #F6EBD9;
+    padding: 10px 0;
+}
+
+.family-no-select {
+
+}
+
+.family-selected {
+
+}
+
+.family-parent,.family-children {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.family-parent > div,.family-children > div{
+    width: 160px;
+}
+
+.family-tree-add-modal {
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;bottom: 0;
+    left: 0;right: 0;
+    z-index: 1;
+}
+
+.add-modal-item {
+    width: 242px;
+    height: 197px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.add-modal-item-item {
+    position: absolute;
+}
+
+.add-modal-item-item > img {
+    width: 100%;
+}
+
+.list-modal {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.am-modal-mask {
+    background-color: rgba(255,255,255,0);
+}
+
+.modal-style {
+    overflow: hidden;
+}
+
+.modal-style > .am-modal-content {
+    background-color: rgba(255,255,255,0.66);
+    overflow: hidden;
+
+}
+
+.modal-style > .am-modal-content > .am-modal-body {
+    overflow: hidden;
+}
+
+.family-tree-search-list {
+    width: 264px;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    z-index: 2;
+    max-height: 200px;
+    min-height: 100px;
+    overflow: auto;
+    border-radius: 6px;
+}
+
+.family-tree-search-item {
+    border-bottom: 1px solid rgba(153, 153, 153, 0.3);
+    padding: 10px 14px;
+}

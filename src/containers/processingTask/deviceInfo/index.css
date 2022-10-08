@@ -1,0 +1,102 @@
+/* .list隐藏滚动条 */
+/* .list::-webkit-scrollbar {display:none};  */
+/* .showPictureContent隐藏滚动条 */
+.showPictureContent::-webkit-scrollbar {display:none}; 
+
+.r-deviceInfo .deviceInfo-content{
+    width: 100%;
+    height: calc(100vh - 79px);
+    background: #fff;
+    touch-action: none;
+    position: absolute;
+    /* top: 79px; */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+  }
+
+  .r-deviceInfo .am-list-item .am-list-line::after{
+    height: 0;
+  }
+
+  .r-deviceInfo .am-list-item.am-input-item{
+    height: 44px;;
+  }
+
+  .r-deviceInfo .am-list-item .am-input-label{
+    color:#888;
+    font-size: 16px;
+  }
+
+  .r-deviceInfo .addPicture{
+    width: 58px;
+    height: 58px;
+    text-align: center;
+    line-height: 66px;
+    border: 1px dashed rgb(24,144,255);
+  }
+
+  .r-deviceInfo .list-item{
+    width: calc(100% - 30px);
+    height: auto;
+    padding: 0 15px;
+    margin-bottom: 5px;
+  }
+
+  .deviceInfo-content .nomessage-round{
+    border-radius: 50%;
+    background: #fff;
+    height: 110px;
+    width: 110px;
+    margin: 110px auto 0;
+  }
+
+  .deviceInfo-content .nomessage-round img{
+    position: relative;
+    width: 50px;
+    top: 28px;
+    left: 30px;
+  }
+
+  .deviceInfo-content .nomessage-text{
+    color:#b9c4ff;
+    font-size:16px;
+    font-weight:600;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .deviceInfo-content .deletePicture{
+    font-size: 40px;
+    position: relative;
+    top: -70px;
+    right: -44px;
+    background-color: #f34;
+    color: #fff;
+    width: 20px;
+    line-height: 12px;
+    height: 20px;
+    border-radius: 50%;
+  }
+
+  .showPicture{
+    position: fixed;
+    top: 100px;
+    bottom: 60px;
+    left: 10px;
+    right: 10px;
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .showPictureTitle{
+    height: 36px;
+    width: 100%;
+    line-height:36px;
+    text-align: right;
+  }
+  .showPictureContent{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }

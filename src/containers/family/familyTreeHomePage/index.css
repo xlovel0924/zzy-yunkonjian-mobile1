@@ -1,0 +1,47 @@
+.family-tree-homepage {
+    position: absolute;
+    top: 0;bottom: 0;
+    left: 0;right: 0;
+    background: url(../../../assets/img/yun-homeTree/bg.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.family-img {
+    width: 189px;
+    height: 205px;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.family-main {
+    position: absolute;
+    width: 114px;
+    height: 43px;
+    background: url(../../../assets/img/yun-homeTree/main.png) no-repeat;
+    background-size: 100% 100%;
+    top: 341px;
+    left: 50%;
+    transform: translateX(-50%);
+    /*text-align: center;*/
+    line-height: 43px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #C69E88;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.house-img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,291 @@
+.my-subscribe {
+    height: 100%;
+    background-image: url("../../../assets/img/cloud-memorial/home-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.no-subscribe {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 45%;
+    margin: 0px 20px;
+}
+
+.no-subscribe>img {
+    width: 150px;
+}
+
+.no-subscribe>.desc {
+    color: #CF9D85;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+.no-subscribe>.go-subcribe {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #CF9D85;
+    color: #FFFFFF;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.my-subscribe-content {
+    height: 90%;
+    padding: 10px 20px;
+}
+
+.my-subscribe-content>.navigation-bar {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-subscribe-content>.navigation-bar>.item {
+    border: 1px solid transparent;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-subscribe-content>.navigation-bar>.item>span {
+    display: block;
+}
+
+.my-subscribe-content>.navigation-bar>.item>.desc {
+    color: #666666;
+    font-size: 13px;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 4px;
+}
+
+.my-subscribe-content>.navigation-bar>.item>.active {
+    color: #CF9D85;
+    font-size: 13px;
+    font-weight: bold;
+    border-bottom: 3px solid #CF9D85;
+    padding-bottom: 4px;
+}
+
+/* .my-subscribe-content>.navigation-bar>.item>.hr {
+    width: 48px;
+    height: 0.08rem !important;
+    background-color: #CF9D85;
+    margin-top: 5px;
+} */
+
+.my-subscribe-content>.infos-list {
+    margin-top: 10px;
+    height: 90%;
+    overflow-y: auto;
+}
+
+.my-subscribe-content>.infos-list>.item {
+    background-color: rgb(255, 255, 255, 0.6);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 0px 3px 6px rgba(229, 229, 229, 0.6);
+}
+
+.my-subscribe-content>.infos-list>.no-infos {
+    height: 135px;
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666666;
+    font-size: 15px;
+    /* font-weight: bold; */
+    box-shadow: 0px 3px 6px rgba(229, 229, 229, 0.6);
+}
+
+.my-subscribe-content>.infos-list>.item span {
+    display: block;
+}
+
+.my-subscribe-content>.infos-list>.item>.part-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.my-subscribe-content>.infos-list>.item>.part-one>.point {
+    width: 8px;
+    height: 8px;
+    background-color: #D3A791;
+    border-radius: 50%;
+}
+
+.my-subscribe-content>.infos-list>.item>.part-one>.big-title {
+    color: #CF9D85;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+
+.my-subscribe-content>.infos-list>.item>.part-one>.sub-time {
+    background-color: #F3E8D4;
+    padding: 6px 10px;
+    color: #666666;
+    font-size: 10px;
+    transform: scale(0.9);
+    border-radius: 10px;
+}
+
+.my-subscribe-content>.infos-list>.item>.part-two {
+    background-image: linear-gradient(180deg, #FAF8F3 0%, #F3E8D4 100%);
+    padding: 25px 1px 10px 0px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin: 10px 0px;
+}
+
+.my-subscribe-content>.infos-list>.item>.part-two>.subitem {
+    flex: 1;
+    height: 100%;
+    text-align: center;
+}
+
+.my-subscribe-content>.infos-list>.item>.part-two>.subitem>.small-title {
+    color: #666666;
+    font-size: 12px;
+}
+
+.my-subscribe-content>.infos-list>.item>.part-two>.subitem>.desc {
+    color: #333333;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.my-subscribe-content>.infos-list>.item>.part-three {
+    font-size: 10px;
+    color: #666666;
+    transform: scale(0.9);
+    margin-top: 10px;
+}
+
+.subscribe-model {
+    width: auto !important;
+    /* background-image: url("../../../assets/img/cloud-memorial/home-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255, 1);
+}
+
+.subscribe-model>.am-modal-content {
+    background-color: transparent;
+}
+
+.subscribe-model .subscribe-model-content {
+    padding: 10px;
+    /* background-color: rgb(255, 255, 255,0.6); */
+    /* border-radius: 5px; */
+}
+
+.subscribe-model .subscribe-model-content>ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.subscribe-model .subscribe-model-content>ul>.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 5px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.subscribe-model .subscribe-model-content>ul>.item>.nickname {
+    color: #333333;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.subscribe-model .subscribe-model-content>ul>.item>input {
+    margin-left: 10px;
+    color: #999999;
+    font-size: 14px;
+    padding: 2px 10px;
+    background-color: transparent;
+}
+
+.subscribe-model .subscribe-model-content>ul>.date {
+    padding: 5px;
+    margin: 0px;
+}
+
+.subscribe-model .subscribe-model-content>ul>.date>div {
+    width: 100%;
+}
+
+.subscribe-model .subscribe-model-content>ul>.date .am-list-item {
+    padding: 0px;
+    color: #333333;
+    font-size: 16px;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.subscribe-model .subscribe-model-content>ul>.date .am-list-line {
+    width: 89%;
+    flex: none;
+}
+
+.subscribe-model .subscribe-model-content>ul>.date .am-list-item>.am-list-line>.am-list-extra {
+    overflow: visible !important;
+}
+
+.subscribe-model .subscribe-model-content>ul>.date .am-list-arrow {
+    display: none !important;
+    visibility: hidden;
+}
+
+.subscribe-model .subscribe-model-content>.footer-options {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.subscribe-model .subscribe-model-content>.footer-options>button {
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0px 30px;
+    margin: 0px 20px;
+    border: none;
+    outline: none;
+}
+
+.subscribe-model .subscribe-model-content>.footer-options>.cancel {
+    border: 2px solid #D39983;
+    color: #D39983;
+    background-color: #fff;
+}
+
+.subscribe-model .subscribe-model-content>.footer-options>.sure {
+    background-color: #D39983;
+    color: #fff;
+}

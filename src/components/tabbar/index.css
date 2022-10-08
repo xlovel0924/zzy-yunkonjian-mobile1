@@ -1,0 +1,55 @@
+/*.tabbar {*/
+/*    position: absolute;*/
+/*    top: 0;left: 0;*/
+/*    right: 0;bottom: 0;*/
+/*    background: url(../../assets/img/yun-home/bg-home.png) no-repeat;*/
+/*    background-size: 100% 100%;*/
+/*    padding: 15px 0 80px;*/
+/*}*/
+
+.tabbar-children {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0 25px;
+    box-sizing: border-box;
+    background-color: #F5F1EE;
+}
+.tabbar-children>div{
+    width: 48px;
+    height: 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.tabbar-children>div>div{
+    font-weight: bold;
+    color: #333;
+    font-family:  PingFangSC-Regular, sans-serif;
+}
+.tabbar-children>div.active{
+    color: #C79F89;
+}
+
+.tabbar-children>div.active>div{
+    color: #C79F89;
+}
+.tabbar-children>div>img{
+    width: 21px;
+    height: 22px;
+}
+
+/*#wrapper {*/
+/*    height: 350px;*/
+/*    box-sizing: border-box; */
+/*    overflow: hidden;*/
+/*}*/
+

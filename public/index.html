@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" name="screen-orientation" content="portrait">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <meta name="referrer" content="no-referrer"/>
+    <meta name="format-detection" content="telephone=yes">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"/>
+    <script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script type="text/javascript"
+            src="https://webapi.amap.com/maps?v=1.4.15&key=3dec398e61fd8df00bf2de102ddbedab&plugin=AMap.Geocoder"></script>
+    <title>云空间</title>
+    <script type="text/javascript">
+        document.addEventListener("WeixinJSBridgeReady", function onBridgeReady() {
+            // 通过下面这个API隐藏右上角按钮
+            WeixinJSBridge.call("hideOptionMenu");
+        });
+        document.body.addEventListener('focusout', () => {
+            window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
+        })
+
+        // window.addEventListener("resize",() => {
+        //     let screenChange = window.sessionStorage.getItem("screenChange");
+        //     if (screenChange != 1){
+        //         window.sessionStorage.setItem("screenChange", 1);
+        //         window.location.reload();
+        //     }
+        // })
+
+        document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+
+            WeixinJSBridge.call('hideToolbar');        // 隐藏底部状态栏
+
+            WeixinJSBridge.call('hideOptionMenu');    // 隐藏右上角的三个点的选项
+
+            WeixinJSBridge.call('showToolbar');        // 显示底部状态栏
+
+            WeixinJSBridge.call('showOptionMenu');    // 显示右上角的三个点的选项
+
+        })
+    </script>
+    <style>
+        html, body {
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .leaflet-control-attribution {
+            display: none !important;
+        }
+    </style>
+</head>
+<noscript>
+    You need to enable JavaScript to run this app.
+</noscript>
+<div id="root"></div>
+<script
+ type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" charset="utf-8" src="phonegap-nfc.js"></script>
+<!--
+  This HTML file is a template.
+  If you open it directly in the browser, you will see an empty page.
+
+  You can add webfonts, meta tags, or analytics to this file.
+  The build step will place the bundled scripts into the <body> tag.
+
+  To begin the development, run `npm start` or `yarn start`.
+  To create a production bundle, use `npm run build` or `yarn build`.
+-->
+</body>
+</html>

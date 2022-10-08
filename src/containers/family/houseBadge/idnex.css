@@ -1,0 +1,54 @@
+.house-badge {
+    background: url(../../../assets/img/yun-find-root/bg.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;bottom: 0;
+    left: 0;right: 0;
+    color: #6B6B6B;
+}
+
+.house-badge-btn{
+    text-align: center;
+    color: #ffffff;
+    border-radius: 22px;
+    background-color: rgba(211, 164, 141, 1);
+    width: 100%;
+    font-size: 18px;
+    padding: 5px 0;
+    margin-top: 40px;
+}
+
+.hosue-badge-inner > img {
+    width: 100%;
+}
+
+.hosue-badge-inner {
+    width: 100px;
+    height: 100px;
+    padding: 13px 27px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 1px solid rgba(232, 212, 158, 1);
+    background-color: rgba(20, 67, 113, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.house-badge-out {
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    background-color: rgba(20, 67, 113, 1);
+    border-radius: 50%;
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.house-badge-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}

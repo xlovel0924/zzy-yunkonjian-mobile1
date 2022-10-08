@@ -1,0 +1,30 @@
+.add-content {
+    background: url(../../../../assets/img/yun-home/bg-home.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;bottom: 0;
+    left: 0;right: 0;
+    color: #666666;
+}
+
+.add-content-container {
+    padding: 20px;
+}
+
+.add-content .am-list-body {
+    background-color: transparent !important;
+}
+
+.add-content .am-list-extra {
+    display: none;
+}
+
+.add-content-save-btn {
+    width: 44px;
+    text-align: center;
+    padding: 3px 0;
+    border-radius: 12px;
+    position: absolute;
+    right: 0;
+    background-color: #CF9D85;
+}

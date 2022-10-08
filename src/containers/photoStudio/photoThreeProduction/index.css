@@ -1,0 +1,46 @@
+.photo-three-production{
+    height: 100%;
+    background-image: url("../../../assets/img/cloud-memorial/home-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.three-production-content{
+    height: 70%;
+    padding: 10px 20px 0px 20px;
+}
+
+.three-production-content>.part-one>span{
+    display: block;
+}
+
+.three-production-content>.part-one>.big-title{
+    color: #333333;
+    font-size: 15px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.three-production-content>.part-one>.desc{
+    color: #666666;
+    font-size: 12px;
+    margin:8px 0px;
+}
+
+.three-production-content .part-two{
+    width: 100%;
+    height: 90%;
+    background-color: #ECD8CE;
+    margin:5px 0px 10px 0px;
+    object-fit: cover;
+}
+
+.three-production-content .part-three{
+    height: 35px;
+    line-height: 35px;
+    background-color: #CF9D85;
+    color: #FFFFFF;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+}

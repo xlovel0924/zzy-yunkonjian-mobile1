@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #999;
+        stroke: #fff;
+        stroke-width: 0.4px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="组_894" data-name="组 894" transform="translate(-18 -406)">
+    <path id="shebeiliebiao" class="cls-1" d="M231,230h-2a1,1,0,0,1,0-2h2a1,1,0,1,1,0,2Zm10,8H225a1,1,0,0,1,0-2h16a1,1,0,0,1,0,2Zm0,4H225a1,1,0,0,1,0-2h16a1,1,0,0,1,0,2Zm-1-8H226a2,2,0,0,1-2-2v-6a2,2,0,0,1,2-2h14a2,2,0,0,1,2,2v6A2,2,0,0,1,240,234Zm-14-8v6h14v-6Z" transform="translate(-203.85 183.997)"/>
+    <rect id="矩形_633" data-name="矩形 633" class="cls-2" width="22" height="22" transform="translate(18 406)"/>
+  </g>
+</svg>

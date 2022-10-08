@@ -1,0 +1,72 @@
+.home-search {
+    background: url(../../assets/img/yun-home/bg-home.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;bottom: 0;
+    left: 0;right: 0;
+    color: #6B6B6B;
+    padding: 0 19px;
+}
+
+.home-search .search {
+    background-color: #fff !important;
+    border-radius: 14px;
+    height: 32px !important;
+    min-height: 32px;
+    width: 100%;
+    flex: 1;
+    padding: 0 -14px;
+}
+
+.recent-search {
+    margin-bottom: 9px;
+}
+
+.recent-search > div:last-child {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.recent-search > div:first-child {
+    color: #333333;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.recent-search > div:last-child > div {
+    background-color: #fff;
+    margin-right: 18px;
+    padding: 5px 16px;
+    border-radius: 13px;
+    margin-bottom: 13px;
+}
+
+.pdlr-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.search-find > div:first-child {
+    font-weight: bold;
+    font-size: 13px;
+    color: #333333;
+    margin-bottom: 10px;
+ }
+
+.search-find > div:last-child {
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.search-find > div:last-child > div:not(:last-child) {
+    border-bottom: 1px solid rgba(153, 153, 153, 0.3);
+}
+
+.search-find > div:last-child > div {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}

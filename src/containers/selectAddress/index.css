@@ -1,0 +1,25 @@
+.select-address {
+    background: url(../../assets/img/yun-home/bg-home.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;right: 0;
+    top: 0;bottom: 0;
+    color: #333333;
+
+}
+
+.select-address-title {
+    font-size: 15px;
+    padding: 0 27px;
+    margin-top: 29px;
+}
+
+.select-address-list {
+    padding: 0 27px;
+}
+
+.select-address-list > div {
+    padding: 15px 0;
+    border-bottom: 1px solid #979797;
+}
+

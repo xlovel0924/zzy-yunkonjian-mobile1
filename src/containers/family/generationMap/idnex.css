@@ -1,0 +1,68 @@
+.generation-map {
+    position: absolute;
+    top: 0;bottom: 0;
+    left: 0; right: 0;
+    background: url(../../../assets/img/yun-generation-map/bg.png) no-repeat;
+    background-size: 100% 100%;
+    color: #3A394D;
+    padding: 0 20px;
+}
+.plr-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.member-parent {
+    padding: 0 22px;
+}
+
+.member-parent > .member-item:not(:first-child) {
+    margin-top: 24px;
+}
+
+.member-item {
+    display: flex;
+}
+
+.member-title {
+    writing-mode: tb-rl;
+    font-size: 18px;
+    font-weight: bold;
+    background: url(../../../assets/img/yun-generation-map/title.png) no-repeat;
+    background-size: 100% 100%;
+    width: 43px;
+    height: 126px;
+    line-height: 43px;
+    text-align: center;
+}
+
+.member-item > img {
+    width: 32px;
+    height: 17px;
+    margin-top: 63px;
+    transform: translateY(-50%);
+    margin-left: 8px;
+    margin-right: 2px;
+}
+
+.three-div {
+    margin-right: 15px;
+}
+
+.three-div > div:last-child {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    writing-mode: tb-rl;
+    font-size: 12px;
+    justify-content: space-between;
+    background: url("../../../assets/img/yun-generation-map/item.png") no-repeat;
+    background-size: 100% 100%;
+    width: 43px;
+    height: 126px;
+    box-sizing: border-box;
+}
+
+.three-div img {
+    width: 26px;
+    height: 40px;
+}

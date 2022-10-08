@@ -1,0 +1,48 @@
+.blessings {
+    background: url(../../../assets/img/yun-home/bg-home.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;bottom: 0;
+    left: 0;right: 0;
+    color: #3A394D;
+}
+
+.blessings-container {
+    padding: 0 20px;
+}
+
+.blessings-tags {
+    margin-top: 28px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.blessings-tags > div {
+    margin-bottom: 15px;
+    width: 90px;
+    padding: 8px 0;
+    text-align: center;
+    background-color: rgba(223, 174, 150, 0.4);
+    border-radius: 17px;
+    color: #3A394D;
+}
+
+.blessings-tags-select {
+    background-color: #CF9D85 !important;
+    color: #ffffff !important;
+}
+
+.blessings-btn {
+    width: 100%;
+    background-color: #CF9D85;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 8px 0;
+    text-align: center;
+    margin-top: 16px;
+    border-radius: 6px;
+}

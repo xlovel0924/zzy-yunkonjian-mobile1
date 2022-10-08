@@ -1,0 +1,85 @@
+.r-customerService{
+  background: #fff;
+  height: 100%;
+}
+
+.service-content{
+    width: calc(100% - 40px);
+    padding-top: 83px;
+    touch-action: none;
+  }
+  .service-content{
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .service-content .am-list-item{
+    padding-left: 0;
+  }
+  .service-content .btn{
+    font-size: 15px;
+    border-radius: 8px;
+    height: 44px;
+  }
+  /* .service-content .btn:first-child{
+    margin-top: 50px !important;
+  } */
+  .service-content .btn:last-child{
+    margin-top: 28px !important;
+  }
+  .service-content .bottom-line{
+    width: 100vw;
+    margin-left: -20px;
+    height: 10px;
+    background-color: #f8f8f8;
+  }
+  .service-content .am-list-item.am-input-item{
+    height: 40px !important;
+  }
+
+  .service-content .users-tip{
+    margin-top: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .service-content .twoBtn{
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    bottom: 59px;
+  }
+
+  .service-content .twoBtn .btn-a{
+    font-size: 15px;
+    margin-top: 28px ;
+    border: 1px solid #4661ff ; 
+    height: 42px ;
+    line-height: 42px ;
+    text-align: center;
+    border-radius: 8px;
+  }
+
+  .service-content .twoBtn .btn-a:active{
+    background: #b0b8e7;
+  }
+
+  .r-customerService .am-list-item:not(:last-child) .am-list-line{
+    border:0;
+  }
+
+  .r-customerService .r-customerService .am-list-item:not(:last-child) .am-list-line{
+    border-bottom:0;
+  }
+
+  .r-customerService .inputLine{
+    position: absolute;
+    top: 36px;
+    left: 66px;
+    width: calc(100vw - 90px);
+    height: 1px;
+    background-color: #e8e8e8;
+  }
+
+  .r-customerService .am-list-item .am-list-line::after{
+    height: 0 !important;
+  }

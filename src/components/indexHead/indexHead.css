@@ -1,0 +1,53 @@
+.r-indexHead{
+  width: calc(100% - 24px);
+  padding: 0 12px;
+  /* margin-left: 12px; */
+  height: 74px;
+  display: flex;
+  color: #fff;
+  background-color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+}
+
+.r-indexHead .indexHead-box{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 49px;
+  vertical-align: middle;
+  margin-top: 25px;
+}
+
+.indexHead-i{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+}
+.indexHead-r{
+  width: 32px;
+  height: 32px;
+  margin: auto;
+  padding-top: 6px;
+}
+
+.indexHead-img{
+  margin: auto;
+}
+
+.indexHead-input{
+  flex: 1;
+  text-align: center;
+  line-height: 49px;
+  color: #333333;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: '微软雅黑';
+}
+
+.indexHead-r .am-badge-text{
+  top: -7px;
+  right: -16px;
+}

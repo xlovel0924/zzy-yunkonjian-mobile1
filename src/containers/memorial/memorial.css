@@ -1,0 +1,145 @@
+.memorial-home{
+    position: absolute;
+    top: 0;left: 0;
+    right: 0;bottom: 0;
+    background: url(../../assets/img/yun-home/bg-home.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 15px 0 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.webkit-home::-webkit-scrollbar{
+    display: none;
+}
+.nav-position{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    height: 60px;
+}
+.nav-plhace{
+    height: 45px;
+}
+.memorial-home .top-img{
+    width: 100%;
+    height: 150px;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.memorial-tab{
+    width: 340px;
+    margin: 10px auto;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #666666;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.memorial-tab .item{
+    height: 20px;
+    line-height: 20px;
+}
+.memorial-tab .item.active{
+    font-size: 14px;
+    font-weight: 800;
+    color: #3A394F;
+    position: relative;
+}
+.memorial-tab .item.active:after{
+    width: 42px;
+    height: 3px;
+    content:"";
+    background: #F7B57F;
+    border-radius: 3px;
+    position: absolute;
+    bottom: -1px;
+    left: calc(50% - 21px);
+}
+.memorial-con{
+    width: 340px;
+    height: 56vh;
+    margin: 0 auto;
+    background: rgba(229, 213, 188, 0.4);
+    box-shadow: 0px 2px 3px 0px rgba(233,217,192,1);
+    border-radius: 10px;
+    border: 1px solid #E5D5BC;
+}
+.memorial-con .item-box{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.memorial-con .item-box .item{
+    width: 100%;
+    min-height: 90px;
+    max-height: 90px;
+    box-sizing: border-box;
+    padding: 15px 28px 15px 17px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom: 1px solid #EDD6B2;
+}
+
+.item-box .item .img{
+    width: 95px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+.item .img>img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.item-box .item>.right{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.item>.right>div{
+    width: 170px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item .right>.titles{
+    height: 18px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333333;
+    line-height: 18px;
+    margin-bottom: 7px;
+}
+.item .right>.side{
+    height: 12px;
+    font-size: 8px;
+    font-weight: 500;
+    color: #333333;
+    line-height: 12px;
+    margin-bottom: 4px;
+}
+.item .right>.distance{
+    height: 12px;
+    font-size: 8px;
+    font-weight: 500;
+    color: #666666;
+    line-height: 12px;
+}
+.item-box .item>.icons{
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

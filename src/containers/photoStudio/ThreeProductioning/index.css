@@ -1,0 +1,49 @@
+.three-productioning{
+    height: 100%;
+    background-image: url("../../../assets/img/cloud-memorial/home-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.three-productioning-content{
+    height: 90%;
+    padding: 10px 20px 0px 20px;
+}
+
+.three-productioning-content>.big-title{
+    font-size: 15px;
+    color: #333333;
+    text-align: center;
+}
+
+.three-productioning-content>.generated{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.three-productioning-content>.generated>img{
+    height: 400px;
+    background-color: #ECD8CE;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.three-productioning-content>.generated>embed{
+    width: 100%;
+    height: 90%;
+    background-color: #ECD8CE;
+    margin:5px 0px 10px 0px;
+    object-fit: cover;
+}
+
+.three-productioning-content>.generated>button{
+    height: 35px;
+    background-color: #CF9D85;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 18px;
+}

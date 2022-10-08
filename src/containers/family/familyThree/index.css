@@ -1,0 +1,30 @@
+.family-three {
+    background: url(../../../assets/img/yun-family-three/bg.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;bottom: 0;
+    left: 0;right: 0;
+    color: #666666;
+}
+
+.family-three-tab {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 0px 54.5px 10px;
+    z-index: 10;
+}
+
+.family-three-select-tab {
+    color: #CF9D85;
+    border-bottom: 3px solid #CF9D85;
+    padding-bottom: 4px;
+    font-weight: bold;
+    position: relative;
+    font-size: 13px !important;
+}
+
+.tab{
+    border-bottom: 3px solid transparent;
+}

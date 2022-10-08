@@ -1,0 +1,77 @@
+.family-tree-list {
+    background: url(../../../assets/img/yun-family-tree-list/bg.png) no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    padding: 0 14px;
+}
+
+.prl-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.tree-list-banner {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    /* opacity: 0.6; */
+    box-shadow: 0px 3px 4px rgba(230, 230, 230, 0.6);
+}
+
+.tree-list {
+    width: 100%;
+    background-color: rgba(255,255,255,0.4);
+    padding: 12px 18px !important;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 0 0 #E9D9C0;
+}
+
+.tree-list-title {
+    color: #666666;
+    font-size: 13px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+/* .tree-list-title > div {
+    padding-bottom: 4px;
+} */
+
+.tree-list-title>.title-nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.tree-list-title>.title-nav>div{
+    font-size: 12.5px;
+    color: #666;
+}
+
+.family-tree-list .tree-list-title-selected {
+    color: #CF9D85 !important;
+    /* font-weight: bold; */
+    /* font-weight: normal !important; */
+    font-size: 13px !important;
+}
+
+.tree-hr {
+    background-color: #CF9D85 !important;
+    margin-top: 4px;
+    height: 0.08rem !important;
+}
+
+.tree-list-btn {
+    background-color: #CF9D85;
+    padding: 7px;
+    border-radius: 6px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 12px;
+}
+
+
+

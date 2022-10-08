@@ -1,0 +1,170 @@
+.alarm-content{
+  width: 100%;
+  height: 100%;
+}
+
+.tabs-item-tip{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.alarmFinish-body .item-list-img{
+  width: 36px;
+  height: 36px;    
+  line-height: 32px;
+  margin: 18px 0 0;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow:  0 3px 6px rgba(0,0,0,0.1);
+}
+
+.alarmFinish-body .item-list-img-finish{
+  width: 48px;
+  height: 48px;    
+  line-height: 44px;
+  margin: auto 0;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.alarmFinish-body .alarm-content .list-img{
+  height: 16px;
+  vertical-align: middle;
+}
+
+.alarmFinish-body .clock-img img{
+  margin: 0 5px 0 0 !important;
+  width: 14px;
+  height: 14px;
+}
+.alarmFinish-body .alarm-content .am-list-item{
+  padding-right: 15px;
+  padding-left: 0;
+}
+.alarmFinish-body .item-list-content{
+  display: flex;
+  flex-direction: column;
+}
+.alarmFinish-body .alarm-content .list-name{
+  margin-top: 0px;
+}
+.alarmFinish-body .list-name-finish{
+  margin: auto;
+}
+.alarmFinish-body .item-list-btn{
+  width: 70px;
+}
+.alarmFinish-body .item-list-btn .btn{
+  margin-top: 25% !important;
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  background-color: #4661ff;
+}
+.alarmFinish-body .tabs-item{
+  flex: 1;
+  width: 100%;
+}
+
+.alarmFinish-body .item-list{
+  display: flex;
+  flex: 1 1;
+}
+.alarmFinish-body .alarm-areaname{
+  margin-left: -4px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+}
+
+.alarmFinish-body .text-time{
+  font-size: 12px;
+  color: #888;
+}
+
+.alarmFinish-body .alarm-type{
+  font-size: 14px !important;
+  width: 100%;
+  margin-top: 4px;
+  text-align: center;
+}
+
+.alarmFinish-body .am-list-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.alarmFinish-body .item-left{
+  display: flex;
+  flex-direction: column;
+  padding-left: 12px;
+}
+
+.alarmFinish-body .am-list-item .am-list-line .am-list-content{
+  height: 148px;
+  display: flex;
+  padding:0;
+}
+
+.alarmFinish-body .ship-name{
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.alarmFinish-body .am-button{
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.alarmFinish-body .am-button-primary{
+  margin:46% 0;
+  background-color: #4661ff;
+}
+
+.alarmFinish-body .nomessage-round{
+  border-radius: 50%;
+  background: #fff;
+  height: 110px;
+  width: 110px;
+  margin: 110px auto 0;
+}
+
+.alarmFinish-body .nomessage-round img{
+  position: relative;
+  width: 50px;
+  top: 28px;
+  left: 30px;
+}
+
+.alarmFinish-body .nomessage-text{
+  color:#b9c4ff;
+  font-size:16px;
+  font-weight:600;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.alarmFinish-body .alarm-content .item-list-img{
+  margin: 42px auto 0;
+}
+
+.alarmFinish-body .btn-acc{
+  margin-top: 60%;
+  font-size: 16px;
+  color: #4661ff;
+}
+
+.alarmFinish-body .alarm-content .item-list-btn{
+  padding-right: 2px;
+  width: 74px;
+}
+
+.alarmFinish-body .am-list-item{
+  margin-top: 10px;
+}

@@ -1,0 +1,27 @@
+.r-camera .camera-content{
+    /* width: 100%; */
+    height: calc(100vh - 110px);
+    /* margin-top: 25px; */
+    background: #fff;
+    touch-action: none;
+  }
+
+  .bindSuccess{
+    position: relative;
+    width: 54px;
+    height: 54px;
+    margin: 8px auto;
+    border-radius: 50%;
+    background: #52C41A;
+  }
+
+  .gou{
+    position: absolute;
+    top: 17px;
+    left: 10px;
+    width: 30px;
+    height: 12px;
+    border-left: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    transform: rotate(-52deg);
+  }

@@ -1,0 +1,44 @@
+/* .list隐藏滚动条 */
+/* .list::-webkit-scrollbar {display:none};  */
+.r-taskDetail .taskDetail-content{
+    /* width: 100%; */
+    height: calc(100vh - 132px);
+    /* margin-top: 25px; */
+    /* background: #fff; */
+    touch-action: none;
+    position: absolute;
+    top: 79px;
+    left: 15px;
+    right: 15px;
+    overflow: hidden;
+  }
+
+  .r-taskDetail .taskDetail-content .list-item{
+    width: calc(100% - 30px);
+    height: auto;
+    padding: 0 15px;
+    margin-bottom: 10px;
+  }
+
+  .taskDetail-content .nomessage-round{
+    border-radius: 50%;
+    background: #fff;
+    height: 110px;
+    width: 110px;
+    margin: 110px auto 0;
+  }
+
+  .taskDetail-content .nomessage-round img{
+    position: relative;
+    width: 50px;
+    top: 28px;
+    left: 30px;
+  }
+
+  .taskDetail-content .nomessage-text{
+    color:#b9c4ff;
+    font-size:16px;
+    font-weight:600;
+    margin-top: 20px;
+    text-align: center;
+  }

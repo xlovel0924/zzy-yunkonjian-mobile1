@@ -1,0 +1,27 @@
+.headPic-content{
+  width: 100%;
+  height: 100%;
+  margin-top: 49px;    
+  margin: auto;
+  text-align: -webkit-center;
+}
+.head-avatar{
+  margin-top: 150px;
+}
+#Mavatar-wrapper{
+  position: absolute !important;
+  width: 200px !important;
+  top: 150px !important;
+  background-color: transparent;
+}
+.head-btn{
+  width: 20%;
+  display: inline-block;
+  margin: 15px;
+  margin-top: 50px;
+}
+.head-img{
+  position: absolute;
+  width: 200px;
+  top: 150px;
+}

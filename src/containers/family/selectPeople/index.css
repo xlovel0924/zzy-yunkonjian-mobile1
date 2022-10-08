@@ -1,0 +1,18 @@
+.select-people {
+    background: url(../../../assets/img/yun-find-root/bg.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;bottom: 0;
+    left: 0;right: 0;
+    color: #6B6B6B;
+}
+
+.select-people .search {
+    background-color: #fff !important;
+    border-radius: 14px;
+    height: 32px !important;
+    min-height: 32px;
+    width: 100%;
+    flex: 1;
+    padding: 0 -14px;
+}

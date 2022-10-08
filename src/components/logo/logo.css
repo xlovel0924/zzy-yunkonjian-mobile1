@@ -1,0 +1,12 @@
+.r-logo{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 101px;
+  padding-bottom: 37px;
+}
+.logo-img{
+  /* width: 170px; */
+  height: 82px;
+}

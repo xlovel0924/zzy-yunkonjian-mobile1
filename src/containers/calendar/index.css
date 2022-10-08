@@ -1,0 +1,149 @@
+/* .list隐藏滚动条 */
+/* .list::-webkit-scrollbar {display:none};  */
+
+.r-calendar{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.r-calendar .calendar-content{
+    /* width: 100%; */
+    /* height: calc(100vh - 190px); */
+    /* margin-top: 25px; */
+    /* background: #fff; */
+    touch-action: none;
+    /* position: relative; */
+    margin-top: 10px;
+    /* left: 0px; */
+    /* right: 0px; */
+    width: 100%;
+    overflow: hidden;
+  }
+  
+
+  .r-calendar .calendar-content .am-list-item .am-list-line .am-list-arrow{
+    margin-right: 0;
+  }
+
+  .r-calendar .calendar-content .am-list-item .am-list-line .am-list-content{
+    padding: 0px;
+  }
+
+  .r-calendar .calendar-content .list-item{
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .calendar-content .nomessage-round{
+    border-radius: 50%;
+    background: #fff;
+    height: 110px;
+    width: 110px;
+    margin: 110px auto 0;
+  }
+
+  .calendar-content .nomessage-round img{
+    position: relative;
+    width: 50px;
+    top: 28px;
+    left: 30px;
+  }
+
+  .calendar-content .nomessage-text{
+    color:#b9c4ff;
+    font-size:16px;
+    font-weight:600;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .r-calendar .weekContent{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* height: 100px; */
+    /* position: relative; */
+    margin-top: 82px;
+    /* left: 0; */
+    /* right: 0; */
+    background-color: #fff;
+  }
+
+  .r-calendar .week{
+    width: calc(100% - 60px);
+  }
+
+  .weekBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .weekItem{
+    width: 40px;
+    height: 75px;
+    margin-top: 12px;
+  }
+
+  .weekItemTop{
+    height: 32px;
+    width: 40px;
+    color: #999;
+    text-align: center;
+  }
+
+  .weekItemBottom{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .arrowBtn{
+    width: 25px;
+    height: 100%;
+    text-align: center;
+    line-height: 110px;
+    background-color: #74C6FF;
+  }
+
+  .todayTask{
+    padding: 15px;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+
+  .taskList{
+    width: calc(100% - 50px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  html:not([data-scale]) .am-list-body::before{
+    height: 0;
+  }
+
+  html:not([data-scale]) .am-list-body::after{
+    height: 0;
+  }
+
+  .am-list-item .am-list-line::after{
+    height: 0;
+  }
+
+  .monthHeader{
+    color: #999;
+    line-height: 30px;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+  }
+  

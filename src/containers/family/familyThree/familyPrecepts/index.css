@@ -1,0 +1,233 @@
+.family-precepts {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 6px;
+    padding: 22px 19px 34px;
+    box-sizing: border-box;
+}
+
+.family-precepts .family-precepts-title {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #666666;
+    margin-bottom: 8px;
+}
+
+.family-precepts .family-precepts-title>.item{
+    color: #333333;
+    font-size: 14px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    /* background-color: #EEE2CE; */
+    padding: 4px 0px;
+}
+
+.family-precepts .family-precepts-title>.active{
+    font-size: 14px;
+    color: #333333;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    /* background-color: #CF9D85; */
+    padding: 4px 0px;
+}
+
+.family-precepts-btn {
+    /*width: 277px;*/
+    text-align: center;
+    background-color: #CF9D85;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 6px 0;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 6px;
+    margin-top: 26px;
+}
+
+.family-precepts-content {
+    padding: 16px 25px;
+    background-color: rgba(246, 235, 217, 0.66);
+    border-radius: 6px;
+    box-shadow: 0 1px 0 0 #E9D9C0;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 3px 0px #E9D9C0;
+}
+
+.family-precepts-content-left {
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 52.5px;
+    border-right: 1px solid rgba(151, 151, 151, 0.4);
+    text-align: center;
+    padding-right: 14px;
+    margin-right: 31px;
+}
+
+.family-precepts-content-left>div:first-child {
+    font-size: 14px;
+    font-weight: bold;
+    width: 68px;
+}
+
+.family-precepts-content-left>div:last-child {
+    font-size: 10px;
+    text-align: center;
+    background-color: #EDDEC8;
+    border-radius: 2px;
+    padding: 4px;
+}
+
+.family-precepts-content-right {
+    padding: 8px 0;
+    line-height: 1.5;
+    color: #333;
+}
+
+.no-infos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 88px;
+    color: #666666;
+    font-size: 15px;
+    margin-top:10px;
+    background-color: rgba(246, 235, 217, 0.66);
+    box-shadow: 0px 2px 3px 0px rgba(233, 217, 192, 1);
+}
+
+.family-precepts>.family-list>.menu>ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.family-precepts>.family-list>.menu>ul>li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46%;
+    height: 63px;
+    background-color: rgba(246, 235, 217, 0.66);
+    box-shadow: 0px 2px 3px 0px rgba(233, 217, 192, 1);
+    margin: 10px 0px;
+    color: #333333;
+    font-size: 16px;
+}
+
+.celebrity-family>.part-one{
+    height: 63px;
+    background-color: #F6EBD9;
+    box-shadow: 0px 2px 3px 0px #E9D9C0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.celebrity-family>.part-one>span{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.celebrity-family>.part-one>span:first-child{
+    flex:1;
+    justify-content: center;
+}
+
+.celebrity-family>.part-one>span:last-child{
+    flex: 3;
+    justify-content: flex-start;
+}
+
+.celebrity-family>.part-two{
+    height: 500px;
+    background-color: #F6EBD9;
+    box-shadow: 0px 2px 3px 0px #E9D9C0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px 0px;
+}
+
+.celebrity-family>.part-two>span{
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.celebrity-family>.part-two>span:first-child{
+    flex:1;
+    justify-content: center;
+    margin-top: 6px;
+}
+
+.celebrity-family>.part-two>span:last-child{
+    flex: 3;
+    justify-content: flex-start;
+    line-height: 23px;
+    letter-spacing: 2px;
+}
+
+.add-family{
+    padding: 22px 30px;
+}
+
+.add-family>.add-family-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.add-family>.add-family-content>.add-title{
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.add-family>.add-family-content>textarea{
+    width: 100%;
+    height: 88px;
+    background-color: rgba(247, 238, 224, 0.66);
+    box-shadow: 0px 2px 3px 0px rgba(233, 217, 192, 1);
+    border-radius: 6px;
+    color: #666666;
+    font-size: 12px;
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    padding: 10px;
+}
+
+.add-family>.add-family-content>.part-three{
+    height: 200px;
+}
+
+.add-family>.add-family-content>button{
+    width: 109%;
+    height: 30px;
+    background-color: #CF9D85;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+}

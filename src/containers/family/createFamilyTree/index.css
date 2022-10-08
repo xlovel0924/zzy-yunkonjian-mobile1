@@ -1,0 +1,56 @@
+.create-family-tree {
+    background: url(../../../assets/img/yun-home/bg-home.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;bottom: 0;
+    left: 0;right: 0;
+}
+
+.tree-form {
+    padding: 0 26px 40px;
+    font-size: 14px;
+    color: #3A394D;
+}
+
+.tree-form-item {
+    border-bottom: 1px solid #999999;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px 20px 21px 0;
+}
+
+.tree-form-item > div:first-child {
+    font-weight: bold;
+}
+
+.tree-form-context {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    position: relative;
+}
+
+.tree-edit-btn {
+    background-color: #CF9D85;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 0;
+    text-align: center;
+    margin-top: 66px;
+    border-radius: 6px;
+}
+
+.sex-switch .am-switch .checkbox:nth-child(2)::after {
+    content: "";
+    color: #CF9D85;
+    font-weight: bold;
+    text-align: center;
+    line-height: 16px;
+    width: 16px;
+    height: 16px;
+    left: 0;
+    top: 0;
+}

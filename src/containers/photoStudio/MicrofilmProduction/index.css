@@ -1,0 +1,81 @@
+.microfilm-production {
+    height: 100%;
+    background-image: url("../../../assets/img/cloud-memorial/home-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.microfilm-production-content {
+    height: 85%;
+    margin-top: 40px;
+}
+
+.microfilm-production-content>.infos {
+    position: relative;
+}
+
+.microfilm-production-content>.infos>video {
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0px;
+    z-index: 22;
+}
+
+.microfilm-production-content>.infos>.video-img {
+    background-image: url('../../../assets/img/yun-photo/autoplay.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+    width: 40px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, 125%);
+    -moz-transform: translate(-50%, 125%);
+    transform: translate(-50%, 125%);
+    z-index: 333;
+}
+
+.microfilm-production-content>.infons {
+    background-color: rgb(255, 255, 255, 0.6);
+    height: 80px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.microfilm-production-content>.infons>.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.microfilm-production-content>.infons>.left>span {
+    display: block;
+    color: #3A394D;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.microfilm-production-content>.infons>.left>.micor-time {
+    font-size: 9px;
+    font-weight: normal;
+    transform: scale(0.98);
+    margin-top: 10px;
+}
+
+.microfilm-production-content>.infons>.right {
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #CF9D85;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 5px;
+}

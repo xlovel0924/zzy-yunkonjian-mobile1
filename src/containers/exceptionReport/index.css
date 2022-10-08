@@ -1,0 +1,201 @@
+  .r-exceptionReport .exceptionReport-content{
+    /* width: 100%; */
+    height: calc(100vh - 79px);
+    /* margin-top: 25px; */
+    /* background: #fff; */
+    touch-action: none;
+    position: absolute;
+    top: 79px;
+    left: 0;
+    right: 0;
+  }
+
+  .r-exceptionReport .exceptionReport-content .am-list-item{
+    padding-right: 15px;
+  }
+
+  .r-exceptionReport .exceptionReport-content  .sound-wave{
+    width: 100%;
+    height: 32px;
+    /* border: 1px solid #ccc; */
+    display:none;
+  }
+
+  /* 录音按钮 */
+  .r-exceptionReport .exceptionReport-content  .recordBtn{
+    float: left; 
+    height: 40px;
+    width: 100px;
+    background:#fff; 
+    border: 1px solid rgb(24,144,255);
+    color:rgb(24,144,255);
+    line-height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  .r-exceptionReport .exceptionReport-content .exRecordRound{
+    width: 20px;
+    height: 20px;
+    /* margin: 8px auto; */
+    border-radius: 50%;
+    background-color: #f34;
+  }
+
+  .r-exceptionReport .exceptionReport-content  .recordBtn:active {
+    border: 1px solid #f34;
+    box-shadow: 0 0 4px rgb(197, 28, 42);
+  }
+
+  .r-exceptionReport .exceptionReport-content  .pictureContent{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    width:calc(100% - 30px);
+    padding: 15px;
+    height: calc(100% - 423px);
+    background-color: #fff;
+  }
+
+  .r-exceptionReport .exceptionReport-content  .addPicture{
+    width: 58px;
+    height: 58px;
+    text-align: center;
+    line-height: 66px;
+    border: 1px dashed rgb(24,144,255);
+  }
+
+  .r-exceptionReport .exceptionReport-content  .pictureBox{
+    width: 58px;
+    height: 58px;
+    border: 1px solid rgb(24,144,255);
+  }
+
+  .r-exceptionReport .exceptionReport-content  .deleteIcon{
+    position: relative;
+    top: -64px;
+    left: 43px;
+    width:18px;
+    height:18px;
+    border-radius:50%;
+    font-size: 32px;
+    line-height: 10px;
+    background-color: #f34;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+  .r-exceptionReport .exceptionReport-content  .cameraModal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+
+  .r-exceptionReport .exceptionReport-content  .deleteAudio{
+    position: relative;
+    float: right;
+    top: -32px;
+    right: 0;
+    width: 44px;
+    height: 28px;
+    border-radius: 15px;
+    border: 1px solid #f34;
+    text-align: center;
+    /* line-height: 38px; */
+    line-height: 28px;
+    font-size: 14px;
+    color: #f34;
+    background-color: #fff;
+  }
+
+  .r-exceptionReport .exceptionReport-content  .deleteAudio:active{
+    color: rgb(214, 36, 51);
+    border: 1px solid rgb(214, 36, 51);
+    background-color: #eee;
+  }
+
+  /* 选择网格弹窗蒙版 */
+  .gridMask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 9;
+  }
+
+  /* 选择网格弹窗 */
+  .locationModal{
+    position: fixed;
+    top: 24%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    border-radius: 8px;
+    z-index: 10;
+    overflow:hidden;
+  }
+
+  .locationModalTitle{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #BFE5FF;
+  }
+
+  .locatioinCountent{
+    width:calc(100% - 30px);
+    padding: 0 15px;
+    height: calc(100% - 128px);
+    overflow: hidden;
+  }
+
+  .emptyGridData{
+    width:100%;
+    font-size: 16px;
+    color: #ccc;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .gridList{
+    width: calc(100% - 32px);
+    height: 48px;
+    margin-bottom: 10px;
+    padding: 0 15px;
+    line-height: 50px;
+    border: 1px solid #ccc;
+    color:#888;
+    border-radius: 4px;
+  }
+
+  .gridListChosed{
+    width: calc(100% - 32px);
+    height: 48px;
+    margin-bottom: 10px;
+    padding: 0 15px;
+    line-height: 50px;
+    border: 1px solid rgb(24,144,255);
+    color:rgb(24,144,255);
+    border-radius: 4px;
+  }
+
+  .locationModalFooter{
+    position: absolute;
+    bottom: 0px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 30px);
+    height: 47px;
+    border-top: 1px solid #ccc;
+  }

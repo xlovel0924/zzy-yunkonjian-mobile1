@@ -1,0 +1,64 @@
+/* .list隐藏滚动条 */
+/* .list::-webkit-scrollbar {display:none};  */
+.r-pendingTask .pendingTask-content{
+    /* width: 100%; */
+    height: calc(100vh - 129px);
+    /* margin-top: 25px; */
+    /* background: #fff; */
+    touch-action: none;
+    position: absolute;
+    top: 129px;
+    left: 15px;
+    right: 15px;
+    overflow: hidden;
+  }
+  
+  .r-pendingTask .navBar{
+    touch-action: none;
+    position: absolute;
+    top: 79px;
+    left: 0;
+    right: 0;
+  }
+
+  .r-pendingTask .am-list-item img{
+    vertical-align: text-top;
+  }
+
+  .r-pendingTask .pendingTask-content .navBar .am-menu .am-flexbox .am-flexbox-item:last-child .am-list .am-list-item.am-sub-menu-item-selected .am-list-line .am-list-content{
+    border-bottom: 1px solid #ccc;
+  }
+
+  .r-pendingTask .pendingTask-content .navBar .am-menu .am-flexbox .am-flexbox-item:first-child .am-list .am-list-item .am-list-line .am-list-content{
+    border-bottom: 1px solid #ccc;
+  }
+
+  .r-pendingTask .pendingTask-content .list-item{
+    width: calc(100% - 30px);
+    height: auto;
+    padding: 0 15px;
+    margin-bottom: 10px;
+  }
+
+  .pendingTask-content .nomessage-round{
+    border-radius: 50%;
+    background: #fff;
+    height: 110px;
+    width: 110px;
+    margin: 110px auto 0;
+  }
+
+  .pendingTask-content .nomessage-round img{
+    position: relative;
+    width: 50px;
+    top: 28px;
+    left: 30px;
+  }
+
+  .pendingTask-content .nomessage-text{
+    color:#b9c4ff;
+    font-size:16px;
+    font-weight:600;
+    margin-top: 20px;
+    text-align: center;
+  }

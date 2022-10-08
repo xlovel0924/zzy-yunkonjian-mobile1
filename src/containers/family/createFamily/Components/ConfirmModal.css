@@ -1,0 +1,68 @@
+.confirm-root {
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    top: 0;bottom: 0;
+    left: 0;right: 0;
+    color: #666666;
+}
+
+.confirm-modal {
+    padding: 13px 15px;
+    position: absolute;
+    bottom: 113px;
+    left: 50%;
+    width: 336px;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px #E9D9C0;
+}
+
+.confirm-top {
+    color: #CF9D85;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.confirm-content {
+    text-indent: 2em;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.yes-confirm-modal {
+    background: url(../../../../assets/img/yun-create-family/yes.png) no-repeat;
+    background-size: 125%;
+}
+
+
+.is-confirm > span {
+    color: #CF9D85;
+}
+
+.foot-btn {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.foot-btn > div {
+    border-radius: 17px;
+    width: 83px;
+    text-align: center;
+    padding: 6px 0;
+}
+
+.foot-btn > div:first-child {
+    margin-right: 39px;
+    border: 1px solid #CF9D85;
+}
+
+.foot-btn > div:last-child {
+    background-color: #CF9D85;
+    color: #FFFFFF;
+}

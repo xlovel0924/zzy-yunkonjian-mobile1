@@ -1,0 +1,170 @@
+.workDetail-content{
+  width: 100%;
+  height: 100%;
+}
+
+.tabs-item-tip{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.workDetail-body .item-list-img{
+  width: 36px;
+  height: 36px;    
+  line-height: 32px;
+  margin: 18px 0 0;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow:  0 3px 6px rgba(0,0,0,0.1);
+}
+
+.workDetail-body .item-list-img-finish{
+  width: 48px;
+  height: 48px;    
+  line-height: 44px;
+  margin: auto 0;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.workDetail-body .workDetail-content .list-img{
+  height: 16px;
+  vertical-align: middle;
+}
+
+.workDetail-body .clock-img img{
+  margin: 0 5px 0 0 !important;
+  width: 14px;
+  height: 14px;
+}
+.workDetail-body .workDetail-content .am-list-item{
+  padding-right: 15px;
+  padding-left: 0;
+}
+.workDetail-body .item-list-content{
+  display: flex;
+  flex-direction: column;
+}
+.workDetail-body .workDetail-content .list-name{
+  margin-top: 0px;
+}
+.workDetail-body .list-name-finish{
+  margin: auto;
+}
+.workDetail-body .item-list-btn{
+  width: 70px;
+}
+.workDetail-body .item-list-btn .btn{
+  margin-top: 25% !important;
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  background-color: #4661ff;
+}
+.workDetail-body .tabs-item{
+  flex: 1;
+  width: 100%;
+}
+
+.workDetail-body .item-list{
+  display: flex;
+  flex: 1 1;
+}
+.workDetail-body .workDetail-areaname{
+  margin-left: -4px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+}
+
+.workDetail-body .text-time{
+  font-size: 12px;
+  color: #888;
+}
+
+.workDetail-body .workDetail-type{
+  font-size: 14px !important;
+  width: 100%;
+  margin-top: 4px;
+  text-align: center;
+}
+
+.workDetail-body .am-list-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.workDetail-body .item-left{
+  display: flex;
+  flex-direction: column;
+  padding-left: 12px;
+}
+
+.workDetail-body .am-list-item .am-list-line .am-list-content{
+  height: 158px !important;
+  display: flex;
+  padding:0;
+}
+
+.workDetail-body .ship-name{
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.workDetail-body .am-button{
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.workDetail-body .am-button-primary{
+  margin:46% 0;
+  background-color: #4661ff;
+}
+
+.workDetail-body .nomessage-round{
+  border-radius: 50%;
+  background: #fff;
+  height: 110px;
+  width: 110px;
+  margin: 110px auto 0;
+}
+
+.workDetail-body .nomessage-round img{
+  position: relative;
+  width: 50px;
+  top: 28px;
+  left: 30px;
+}
+
+.workDetail-body .nomessage-text{
+  color:#b9c4ff;
+  font-size:16px;
+  font-weight:600;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.workDetail-body .workDetail-content .item-list-img{
+  margin: 52px auto 0;
+}
+
+.workDetail-body .btn-acc{
+  margin-top: 60%;
+  font-size: 16px;
+  color: #4661ff;
+}
+
+.workDetail-body .workDetail-content .item-list-btn{
+  padding-right: 2px;
+  width: 74px;
+}
+
+.workDetail-body .am-list-item{
+  margin-top: 10px;
+}

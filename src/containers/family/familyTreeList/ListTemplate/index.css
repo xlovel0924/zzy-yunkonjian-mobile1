@@ -1,0 +1,127 @@
+.list-template {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-template:first-child{
+    margin-top: 12px;
+}
+
+.list-template > .left {
+    display: flex;
+}
+
+.template-pic {
+    background: url(../../../../assets/img/yun-family-tree-list/book.png) no-repeat;
+    background-size: 100% 100%;
+    width: 58px;
+    height: 83px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.template-pic > img {
+    width: 47px;
+    height: 22px;
+    position: absolute;
+    right: -12px;
+    bottom: -9px;
+}
+
+.template-pic > .template-name {
+    width: 12px;
+    height: 43px;
+    position: absolute;
+    right: 5.5px;
+    top: 6px;
+    font-size: 12px;
+    transform: scale(1);
+    border: 1px solid #444444;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.template-pic > .template-name > div {
+    transform: scale(0.5) translateY(-50%);
+    height: 200%;
+    text-align: center;
+    writing-mode: vertical-lr;;
+    letter-spacing: 6px;
+}
+
+.template-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 83px;
+}
+
+.template-info > div:first-child {
+    font-weight: bold;
+    font-size: 12px;
+    color: #333333;
+}
+
+.template-info > div:nth-child(2) {
+    font-size: 8px;
+    color: #333333;
+}
+
+.template-info > div:nth-child(3) {
+    font-size: 8px;
+    color: rgba(102, 102, 102, 0.7);
+}
+
+.template-info > div:nth-child(4) {
+    width: 58px;
+    text-align: center;
+    font-size: 8px;
+    background-color: #3C5B80;
+    color: #ffffff;
+    padding: 2px 0;
+    position: relative;
+}
+
+.template-info > div:nth-child(4) > div:first-child {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.template-info > div:nth-child(4) > div:last-child {
+    display: none;
+    position: absolute;
+    top: 20px;
+    background-color: #3C5B80;
+    width: 58px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.template-more {
+    background-color: rgba(240, 228, 203, 0.5);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.no-message {
+    text-align: center;
+    color: #666666;
+    padding: 60px 0;
+}
+
+.down {
+   transform: rotate(0deg);
+}
+
+.up{
+    transform: rotate(180deg);
+}
+

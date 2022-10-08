@@ -1,0 +1,242 @@
+.personal-data {
+    height: 100%;
+    background-image: url("../../../assets/img/cloud-memorial/home-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 10px 0px
+}
+
+.personal-data-content {
+    margin: 10px 20px;
+    background-color: rgb(255, 255, 255, 0.6);
+    padding: 15px;
+    height: 60%;
+    box-shadow: 0px 3px 6px #E0D3C0;
+    border-radius: 8px;
+    padding-bottom: 100px;
+}
+
+.personal-data-content>.head-portrait {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.personal-data-content>.head-portrait>.left {
+    color: #3A394D;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.personal-data-content>.head-portrait>.right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.personal-data-content>.head-portrait>.right .desc {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.personal-data-content>.head-portrait>.right>.icon {
+    width: 6px;
+    padding-left: 15px;
+    margin: 0px;
+}
+
+.personal-data-content>.item {
+    border-bottom: 1px solid #CCCCCC;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.personal-data-content>.phone {
+    border-top: 1px solid #CCCCCC;
+}
+
+.personal-data-content>.item>.left {
+    color: #3A394D;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.personal-data-content>.item>.right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.personal-data-content>.item>.right>.desc {
+    color: #999999;
+    font-size: 12px;
+}
+
+.personal-data-content>.item>.right>.icon {
+    width: 6px;
+    padding-left: 15px;
+    margin: 0px;
+}
+
+.personal-model-data {
+    height: 260px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.personal-model-data .model-content {
+    height: 80%;
+    padding: 20px;
+}
+
+.personal-model-data .model-content>.nickname {
+    font-size: 14px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.personal-model-data .model-content>input {
+    width: 90%;
+    background-color: #F3F3F3;
+    border: none;
+    outline: none;
+    height: 44px;
+    margin: 20px 0px;
+    padding: 0px 10px;
+    color: #333333;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+.personal-model-data .model-content>.radio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.personal-model-data .model-content>.radio>.item {
+    margin: 20px 15px;
+    color: #333333;
+    font-size: 14px;
+}
+
+.personal-model-data .model-content>.radio>.item>input {
+    margin-right: 4px;
+    width: 14px;
+    height: 14px;
+    appearance: none;
+    position: relative;
+}
+
+/** 未被选中的样式*/
+.personal-model-data .model-content>.radio>.item>input::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #D39983;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+/** 选中的样式 */
+.personal-model-data .model-content>.radio>.item>input:checked::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #D39983;
+    color: #7d7d7d;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 8px;
+    content: "";
+    background: #D39983;
+    border-radius: 50%;
+}
+
+.personal-model-data .model-content>button {
+    width: 118px;
+    height: 40px;
+    border: 2px solid #D39983;
+    background-color: #fff;
+    color: #D39983;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.area-model-data {
+    height: 400px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: transparent !important;
+}
+
+.area-model-data .area-model-content>.province-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area-model-data .area-model-content>.province-list>.province-item {
+    border-top: 1px solid #CCCCCC;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 92%;
+    justify-content: space-between;
+    padding: 15px;
+    color: #3A394D;
+    font-size: 12px;
+}
+
+
+
+.area-model-data .area-model-content>.province-list>.province-item:first-child {
+    border: none !important;
+}
+
+.area-model-data .area-model-content>.province-list>.province-item>.desc {
+    margin-left: 8px;
+}
+
+.area-model-data .area-model-content>.province-list>.province-item>img {
+    width: 6px;
+    margin-right: 8px;
+}
+
+.area-model-data .area-model-content>.province-list>.active {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 92%;
+    justify-content: space-between;
+    padding: 15px;
+    color: #D39983;
+    font-size: 12px;
+    border-top: 1px solid #CCCCCC;
+}
+
+.area-model-data .area-model-content>.province-list>.active>.desc {
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+.area-model-data .area-model-content>.province-list>.active>img {
+    width: 8px;
+    margin-right: 8px;
+}

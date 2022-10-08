@@ -1,0 +1,134 @@
+.allMsg-content{
+  width: 100%;
+  height: 100%;
+}
+
+
+.allMsg-body .item-list-img-finish{
+  width: 48px;
+  height: 48px;    
+  line-height: 44px;
+  margin: auto 0;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.allMsg-body .allMsg-content .list-img{
+  height: 16px;
+  vertical-align: middle;
+}
+
+.allMsg-body .item-list-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 0 0 10px;
+  width: calc(100% - 60px);
+}
+
+.allMsg-body .item-list{
+  display: flex;
+  flex: 1 1;
+}
+
+/* .allMsg-body .am-list-content{
+  display: flex;
+  justify-content: space-between;
+} */
+
+.allMsg-body .item-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-right: 1px solid #e8e8e8;
+}
+
+.allMsg-body .item-left .item-mail{
+  height: 46px;
+  width: 46px;
+}
+
+.allMsg-body .am-list-item .am-list-line .am-list-content{
+  padding:10px;
+  height: 60px;
+}
+
+.allMsg-body .ship-name{
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.allMsg-body .am-button{
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.allMsg-body .am-button-primary{
+  margin:46% 0;
+  background-color: #4661ff;
+}
+
+.allMsg-body .nomessage-round{
+  border-radius: 50%;
+  background: #fff;
+  height: 110px;
+  width: 110px;
+  margin: 110px auto 0;
+}
+
+.allMsg-body .nomessage-text{
+  color:#b9c4ff;
+  font-size:16px;
+  font-weight:600;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.allMsg-body .allMsg-content .item-list-img{
+  margin: 52px auto 0;
+}
+
+.allMsg-body .btn-acc{
+  margin-top: 60%;
+  font-size: 16px;
+  color: #4661ff;
+}
+
+.allMsg-body .allMsg-content .item-list-btn{
+  padding-right: 2px;
+  width: 74px;
+}
+
+.allMsg-body .am-list-item{
+  margin-bottom: 10px;
+  padding:0;
+}
+
+.list-name{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.notice-name{
+  width: calc(100% - 70px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #333;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.noticeInfo{
+  width: 100%;
+  color: #999;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.5" height="14.499" viewBox="0 0 14.5 14.499">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #666;
+        stroke: #666;
+        stroke-width: 0.5px;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="组_653" data-name="组 653" transform="translate(0.25 0.25)">
+    <path id="suodingweizhi" class="cls-1" d="M66.19,59.209a7,7,0,1,0,7,7A7,7,0,0,0,66.19,59.209Zm.467,13.042v-2.31a.467.467,0,0,0-.933,0v2.31a6.061,6.061,0,0,1-5.578-5.576h2.311a.467.467,0,1,0,0-.933H60.146a6.061,6.061,0,0,1,5.578-5.576v2.31a.467.467,0,0,0,.933,0v-2.31a6.061,6.061,0,0,1,5.578,5.576H69.924a.467.467,0,1,0,0,.933h2.311A6.061,6.061,0,0,1,66.657,72.251Z" transform="translate(-59.19 -59.209)"/>
+    <g id="椭圆_8" data-name="椭圆 8" class="cls-1" transform="translate(5.146 5.232)">
+      <ellipse class="cls-2" cx="1.811" cy="1.811" rx="1.811" ry="1.811"/>
+      <ellipse class="cls-3" cx="1.811" cy="1.811" rx="1.561" ry="1.561"/>
+    </g>
+  </g>
+</svg>

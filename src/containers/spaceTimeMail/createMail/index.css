@@ -1,0 +1,179 @@
+.space-time-mail-create{
+    height: 100%;
+    background-image: url("../../../assets/img/cloud-memorial/home-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.animateContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+.space-time-mail-create-title{
+    width: calc(100% - 40px);
+    margin: 10px 20px 20px;
+    height: 35px;
+    border-radius: 6px;
+    line-height: 35px;
+    background-color: rgba(255,255,255,0.6);
+}
+
+.mail-create-mailContainer{
+    position: absolute;
+    top: 120px;
+    bottom: 125px;
+    left: 0;
+    right: 0;
+    overflow: scroll;
+}
+
+.mail-create-bottomBtns{
+    position: absolute;
+    height: 115px;
+    padding-top: 10px;
+    bottom: 0;
+    left: 20px;
+    right: 20px;
+}
+
+.mail-create-radios{
+    display: flex;
+    justify-content: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.redioBtnSelected{
+    margin-left: 20px;
+    margin-right: 6px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #C79F89;
+}
+
+.isPublicTitle{
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+}
+
+.redioBtn{
+    margin-left: 20px;
+    margin-right: 6px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.mail-create-submitBox{
+    margin-top: 20px;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mail-create-submit{
+    width: 49%;
+    color: #fff;
+    border-radius: 4px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: #C79F89;
+}
+
+.timingSendBox{
+    position: absolute;
+    padding: 10px;
+    top: 30%;
+    left: 20px;
+    right: 20px;
+    height: 95px;
+    background-color: #fff;
+    z-index: 50;
+    border-radius: 4px;
+}
+
+.timingSendTitle{
+    font-size: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.timingSendInputContainer{
+    display: flex;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.timingSendInputItem{
+    width: 42px;
+    height: 20px;
+    color: #333;
+    border-radius: 10px;
+    border: 1px solid #999;
+}
+
+.timingSendInputItem input , .timingSendInputItem .am-list-item, .timingSendInputItem .am-input-control input,
+ .timingSendInputItem .am-list-item, .timingSendInputItem .am-input-control, .timingSendInputItem .am-list-item.am-list-item-middle,
+  .timingSendInputItem .am-list-line, .timingSendInputItem .am-list-item .am-input-control input{
+    line-height: 20px !important;
+    height: 20px !important;
+    font-size: 10px !important;
+    padding: 0 !important;
+    text-align: center !important;;
+}
+
+.timingSendInputUnit{
+    height: 20px;
+    color: #333;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.timingSendInfo{
+    font-size: 10px;
+    color: #999;
+    margin-top: 10px;
+}
+
+.timingSendInfoTime{
+    font-size: 10px;
+    color: #333;
+}
+
+.timingSendSubmitBox{
+    margin-top: 10px;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 20px;
+}
+
+.timingSendSubmitBtn{
+    width: 60px;
+    height: 20px;
+    border: 1px solid #CF9D85;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+}

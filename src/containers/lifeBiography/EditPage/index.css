@@ -1,0 +1,124 @@
+.biography-edit{
+    background-image: url("../../../assets/img/life-biography/base-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.biography-edit>.edit-content{
+    height: 80%;
+    padding: 10px;
+}
+
+.biography-edit>.edit-content>.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 33px;
+    background-color: rgb(255, 255, 255, 0.6);
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    border: 1px solid #E9D9C0;
+    border-radius: 5px;
+}
+
+.biography-edit>.edit-content>.item>.small-title{
+    font-size: 12px;
+    color: #3A394D;
+}
+
+.biography-edit>.edit-content>.item>input{
+    margin-left: 10px;
+    padding: 10px 5px;
+    background-color: transparent;
+}
+
+.biography-edit>.edit-content>.item>input::placeholder{
+    color: #999999;
+    font-size: 12px;
+}
+
+.biography-edit>.edit-content>.theme>input{
+    margin-left: 35px;
+}
+
+.biography-edit>.edit-content>textarea{
+    width: 94%;
+    height: 185px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid #E9D9C0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.biography-edit>.edit-content>textarea::placeholder{
+    color: #999999;
+    font-size: 12px;
+}
+
+.biography-edit>.edit-content>.deeds{
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid #E9D9C0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.biography-edit>.edit-content>.deeds>.top>.item{
+    color: #6B6B6B;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.biography-edit>.edit-content>.deeds>.top>.item>.left{
+    flex: 3;
+}
+
+.biography-edit>.edit-content>.deeds>.top>.item>.right{
+    flex: 0.5;
+    text-align: right;
+}
+
+.biography-edit>.edit-content>.deeds>.top>.item>.right>img{
+    width: 5px;
+    height: 14px;
+    line-height: 14px;
+}
+
+.biography-edit>.edit-content>.deeds>.all{
+    color: #CF9D85;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.biography-edit>.edit-content>.submit{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.biography-edit>.edit-content>.submit>button{
+    height: 30px;
+    width: 40%;
+    background-color: transparent;
+    outline: none;
+    border-radius: 14px;
+    font-size: 14px;
+}
+
+.biography-edit>.edit-content>.submit>button:first-child{
+    border: 1px solid #CF9D85;
+    color: #CF9D85;
+    margin-right: 20px;
+}
+
+.biography-edit>.edit-content>.submit>button:last-child{
+    background-color: #CF9D85 !important;
+    border: none;
+    color: #fff;
+}

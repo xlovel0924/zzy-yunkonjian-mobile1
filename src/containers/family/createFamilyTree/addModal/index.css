@@ -1,0 +1,11 @@
+.add-modal .add-input {
+    background-color: #fff !important;
+    border-radius: 14px;
+    height: 32px !important;
+    min-height: 32px;
+    width: 100%;
+    flex: 1;
+    padding: 0 -14px;
+    border: 1px solid #000000 !important;
+    box-sizing: border-box;
+}

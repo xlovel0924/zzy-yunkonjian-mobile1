@@ -1,0 +1,103 @@
+.my-photo{
+    height: 100%;
+    background-image: url("../../../assets/img/cloud-memorial/home-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.my-photo-content{
+    height: 90%;
+}
+
+/* 无照片 */
+.my-photo-content>.not-photo-infos{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 45%;
+    margin: 0px 20px;
+}
+
+.my-photo-content>.not-photo-infos>img{
+    width: 150px;
+}
+
+.my-photo-content>.not-photo-infos>.desc{
+    color: #CF9D85;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+.my-photo-content>.not-photo-infos>.go-photograph{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #CF9D85;
+    color: #FFFFFF;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* 有照片 */
+.my-photo-content>.have-photo-infos{
+    height: 90%;
+    margin: 10px 20px;
+}
+
+.my-photo-content>.have-photo-infos>.photo-details{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.my-photo>.my-photo-content>.have-photo-infos>.photo-details>.big-title{
+    color: #333333;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.my-photo-content>.have-photo-infos>.photo-details>.menu-list{
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.my-photo-content>.have-photo-infos>.photo-details>.menu-list>li{
+    margin: 5px 10px 0px 0px;
+}
+.my-photo-content>.have-photo-infos>.photo-details>.menu-list>li img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.my-photo-content>.have-photo-infos>.photo-details>.menu-list>li video{
+    width: 200px;
+    height: 120px;
+    object-fit: contain;
+}
+.my-photo-content>.have-photo-infos>.photo-details>.menu-list>li:last-child{
+    margin-right: 0px !important;
+}
+
+/* 滚动条样式修改 */
+.scroll::-webkit-scrollbar{
+    background-color: rgb(255, 255, 255, 0.6);
+}
+
+.scroll::-webkit-scrollbar-thumb{
+    background-color: rgba(207, 157, 133, 0.4);
+}
+
+::-webkit-scrollbar-track-piece{
+    background-color: transparent;
+}

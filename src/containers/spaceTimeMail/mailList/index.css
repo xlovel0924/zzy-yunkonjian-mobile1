@@ -1,0 +1,176 @@
+
+.space-time-mail-list{
+    background: url(../../../assets/img/yun-space-time-mail/mailBG.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;bottom: 0;
+    left: 0;right: 0;
+}
+
+.space-time-mail-list-container {
+    padding: 0 20px;
+    height: calc(100% - 1.56rem);
+}
+
+.space-time-list-title{
+    display: flex;
+    justify-content: space-around;
+}
+.space-time-list-title-selected{
+    font-size: 16px;
+    color: #C79F89;
+    font-weight: bold;
+}
+
+
+.prl-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.tree-list-banner {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    /* opacity: 0.6; */
+    box-shadow: 0px 3px 4px rgba(230, 230, 230, 0.6);
+}
+
+.tree-list {
+    width: 100%;
+    background-color: rgba(255,255,255,0.4);
+    padding: 12px 43px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 0 0 #E9D9C0;
+}
+
+.tree-list-title {
+    color: #666666;
+    font-size: 13px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+/* .tree-list-title > div {
+    padding-bottom: 4px;
+} */
+
+.tree-list-title>.title-nav{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.tree-list-title>.title-nav>div{
+    font-size: 16px;
+}
+
+.space-time-list-title{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.space-time-list-hr {
+    background-color: #CF9D85;
+    height: 0.08rem;
+    margin-top: 4px;
+}
+
+.tree-list-title-selected{
+    color: #CF9D85 ;
+}
+
+.space-time-mail-btn {
+    position: absolute;
+    width: calc(100% - 40px);
+    background-color: #CF9D85;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 4px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    bottom: 30px;
+}
+
+.space-time-mail-list-box {
+    height: calc(100% - 3rem);
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.space-time-mail-listItem{
+    padding: 10px;
+    width: calc(100% - 20px);
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background-color: rgba(255,255,255,0.6);
+    display: flex;
+    justify-content: space-between;
+}
+
+.space-time-mail-listItem-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ECD8CE;
+    overflow: hidden;
+}
+.space-time-mail-listItem-titleBox{
+    width: calc(100% - 170px);
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+.space-time-mail-listItem-titleName{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.space-time-mail-listItem-titleType{
+    width: 60px;
+    height: 20px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #D8AF98;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.space-time-mail-listItem-time{
+    width: 80px;
+    height: 60px;
+    font-size: 12px;
+    color: #666;
+    text-align: right;
+    line-height: 60px;
+}
+
+.mail-noData{
+    width: 100%;
+    text-align: center;
+    color: #666;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 40%;
+}
+
+
+
+
+

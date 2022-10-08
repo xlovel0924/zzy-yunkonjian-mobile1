@@ -1,0 +1,304 @@
+.incense {
+    background: url(../../../../assets/img/yun-blessings/incenseMainBG.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;bottom: 0;
+    left: 0;right: 0;
+    color: #3A394D;
+}
+
+.incense-container {
+    padding: 0 20px;
+}
+
+.incense-title{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    margin-left: calc(50% - 90px);
+    height: 41px;
+    margin-top: 28px;
+}
+
+.textItem{
+    min-width: 41px;
+    height: 41px;
+    background: url(../../../../assets/img/yun-blessings/BG_text.png) no-repeat;
+    background-size: 41px,41px;
+    text-align: center;
+    line-height: 41px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.incenseItemBox{
+    width: 100%;
+    height: 114px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.incenseItem{
+    width: 33px;
+    height: 114px;
+    background: url(../../../../assets/img/yun-blessings/BG_incense.png) no-repeat;
+    background-size: 33px,114px;
+    line-height: 26px;
+    font-size: 18px;
+    color: #333;
+    padding-top: 4px;
+    text-align: center;
+}
+
+.textItem:not(:first-child){
+    margin-left: -6px;
+}
+
+.incenseBurnerContainer{
+    margin-top: -80px;
+    width: 60%;
+    margin-left: 20%;
+    z-index: 10;
+}
+
+.incenseImg{
+    margin-top: 20px;
+    width: 60vw;
+    height: 60vw;
+    margin-left: 20%;
+}
+
+.incense-btn {
+    margin-top: 20px;
+    width: calc(70%);
+    margin-left: calc(15%);
+    background-color: #CF9D85;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 8px 0;
+    text-align: center;
+    border-radius: 20px;
+    letter-spacing: 4px;
+}
+
+.prayTitle{
+    width:100%;
+    text-align: center;
+    font-size: 30px;
+    color: #CF9D85;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.praySubTitle{
+    width:100%;
+    text-align: center;
+    font-size: 20px;
+    color: #CF9D85;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.leftTimeContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.leftTime{
+    width: 161px;
+    height: 41px;
+    background: url(../../../../assets/img/yun-blessings/BG_leftTime.png) no-repeat;
+    background-size: 161px,41px;
+    line-height: 41px;
+    text-align: center;
+    font-size: 25px;
+    color: #CF9D85;
+    font-weight: 600;
+}
+
+
+.bullet-chat{
+    height:100vh;
+    position: relative
+}
+.bullet-chat div{
+    position: absolute;
+    transition: left linear 8s;
+}
+
+.noticeContainerBox{
+    width: 100%;
+    position: fixed;
+    top: 250px;
+    left:0;
+    color: #CF9D85;
+    text-indent:2em;
+}
+
+.noticeContainer{
+    width: calc(100% - 40px);
+    margin-top: 20px;
+    padding: 0 20px;
+    text-align: left;
+    font-size: 20px;
+    word-wrap: break-word;
+    word-break: normal;
+    animation: moveDiv 5s infinite;
+}
+
+.rightArr{
+    width:13px;
+    height: 23px;
+    background: url(../../../../assets/img/yun-blessings/rightArr.png) no-repeat;
+    background-size: 13px,23px;
+    position: absolute;
+    top: 116vw;
+    right: 10px;
+}
+
+.leftArr{
+    width:13px;
+    height: 23px;
+    background: url(../../../../assets/img/yun-blessings/rightArr.png) no-repeat;
+    background-size: 13px,23px;
+    position: absolute;
+    top: 116vw;
+    left: 10px;
+    transform: rotate(180deg);
+}
+
+.incense-textModal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,0.6);
+    z-index: 100;
+}
+
+.incense-nameContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin-top: 200px;
+}
+
+.incense-nameBG{
+    position: absolute;
+    width: 346px;
+    height: 215px;
+    background: url(../../../../assets/img/yun-blessings/BG_nameText.png) no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    line-height: 41px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.closBtn{
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    right: 15px;
+    top: 15px;
+    background: url(../../../../assets/img/yun-blessings/closeBtn.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.textModalInputBox{
+    margin-top: 6px;
+    width: calc(100% - 50px);
+    height: 30px;
+    line-height: 30px;
+    padding: 0 25px;
+    display: flex;
+    justify-content: left;
+}
+.incense-textTitle{
+    text-align: left;
+    width: 80px;
+    font-size: 14px;
+    color:#CF9D85
+}
+.incense-textValue{
+    width: calc(100% - 60px);
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgb(239,224,201);
+}
+
+.incense-textValue2{
+    width: calc(100% - 60px);
+    line-height: 23px;
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+    margin-top: 4px;
+}
+
+.incense-textValue .am-textarea-control{
+    padding-top: 2px;
+}
+
+.incense-submitBtn{
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 2px;
+    border-radius: 13px;
+    background-color: #CF9D85;
+    font-size: 14px;
+    z-index: 50;
+}
+
+@keyframes moveDiv {
+    0% {
+       margin-left: 100vw;
+    }
+    30%{
+        margin-left: 0;
+    }
+    60%{
+        margin-left: 0;
+    }
+    100% {
+       margin-left: -100vw;
+    }
+}
+
+.textModalTitleBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.textModalTitle{
+    padding: 0 20px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 4px;
+    background-color: #ECDCC5;
+    color: #CF9D85;
+    font-size: 15px;
+}
+
+.incense-btn-ghost{
+    margin-top: 30px;
+    width: calc(70%);
+    margin-left: calc(15%);
+    border: 1px solid #CF9D85;
+    color: #CF9D85;
+    font-size: 18px;
+    padding: 8px 0;
+    text-align: center;
+    border-radius: 20px;
+    letter-spacing: 4px;
+}

@@ -1,0 +1,31 @@
+.memorial-publicity{
+    height: 100%;
+    background-image: url('../../../assets/img/cloud-memorial/publicity-bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.memorial-publicity>.memorial-publictiy-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.memorial-publicity>.memorial-publictiy-content>.publictiy-img>img{
+    width: calc(100% - 15%);
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+}
+
+.memorial-publicity>.memorial-publictiy-content>.desc{
+    width: 100vw;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 13px;
+    position: absolute;
+    bottom: 5%;
+}

@@ -1,0 +1,173 @@
+.biography-home{
+    height: 100%;
+    background-image: url("../../../assets/img/life-biography/base-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.biography-home-content>.no-content{
+    margin: 20px 0px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    padding: 10px;
+    height: 20vh;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    color: #6B6B6B;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.biography-home-content{
+    padding: 10px 20px;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.biography-home-content>.part-one{
+    width: 100%;
+    height: 223px;
+    margin: auto;
+}
+
+.biography-home-content>.part-one>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.biography-home-content>.part-two{
+    margin: 20px 0px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+
+.biography-home-content>.part-two>.user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.biography-home-content>.part-two>.user>img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #CC834B;
+}
+
+.biography-home-content>.part-two>.user>.nickname{
+    font-size: 14px;
+    font-weight: bold;
+    color: #CC834B;
+}
+
+.biography-home-content>.part-two>.user>.recommend{
+    color: #CC834B;
+    font-size: 10px;
+    font-weight: bold;
+    border: 1px solid #CC834B;
+    padding: 2px;
+    margin-left: 8px;
+    border-radius: 3px;
+    transform: scale(0.9);
+    margin-top: 2px;
+}
+
+.biography-home-content>.part-two>.biography-home-deeds{
+    margin-top: 10px;
+}
+
+.biography-home-content>.part-two>.biography-home-deeds>.item{
+    color: #6B6B6B;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    line-height: 17px;
+}
+
+.biography-home-content>.part-two>.biography-home-deeds>.item>.left{
+    flex: 3;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.biography-home-content>.part-two>.biography-home-deeds>.item>.left>span{
+    display: block;
+}
+
+.biography-home-content>.part-two>.biography-home-deeds>.item>.left>span:last-child{
+    width: 80%;
+}
+
+.biography-home-content>.part-two>.biography-home-deeds>.item>.right{
+    flex: 0.5;
+    text-align: right;
+}
+
+.biography-home-content>.part-two>.biography-home-deeds>.item>.right>img{
+    width: 5px;
+    height: 14px;
+    line-height: 14px;
+}
+
+.biography-home-content>.part-two>.biography-home-options>.all{
+    color: #CF9D85;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.biography-home-content>.part-two>.biography-home-options>.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.biography-home-content>.part-two>.biography-home-options>.bottom>.left{
+    font-size: 11px;
+    color: #999999;
+}
+
+.biography-home-content>.part-two>.biography-home-options>.bottom>.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.biography-home-content>.part-two>.biography-home-options>.bottom>.right>.item{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #999999;
+}
+
+.biography-home-content>.part-two>.biography-home-options>.bottom>.right>.item>img{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.biography-home-content>.part-two>.biography-home-options>.bottom>.right>.item>span{
+    display: block;
+}
+
+.part0{
+    display: none !important;
+}

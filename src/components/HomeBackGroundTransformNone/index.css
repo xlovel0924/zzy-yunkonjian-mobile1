@@ -1,0 +1,12 @@
+.home-backgroundTransformNone {
+    padding: 15px 0;
+    box-sizing: border-box;
+    position: absolute;
+    top: 40px;bottom: 0;
+    left: 0;right: 0;
+}
+
+.home-backgroundTransformNone>#wrapper>div{
+    transform:none
+}
+

@@ -1,0 +1,86 @@
+.photo-color-repair{
+    height: 100%;
+    background-image: url("../../../assets/img/cloud-memorial/home-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.color-repair-content{
+    height: 90%;
+}
+.color-repair-content>.desc{
+    height: 90%;
+    margin: 10px 20px;
+    padding: 20px;
+    text-align: center;
+    color: #3A394D;
+    letter-spacing: 2px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.color-repair-content>.desc>.big-title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.color-repair-content>.desc>.small-title{
+    font-size: 12px;
+    margin: 15px 0px;
+    letter-spacing: 2.5px;
+}
+
+.color-repair-content>.desc img{
+    width: 100%;
+    height: 78%;
+    object-fit: cover;
+}
+
+.color-repair-content>.desc>.hr{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    right: 50%;
+    border: 1px dashed #FF5300;
+}
+
+.color-repair-content>.desc>.experience-now{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background-color: #CF9D85;
+    margin: 20px 0px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+.color-repair-model{
+    border: 1px solid transparent;
+}
+
+.color-repair-model .am-modal-title{
+    color: #333;
+}
+
+.logout-model .model-content span{
+    color: #333;
+}
+
+.color-repair-model .model-options{
+    margin-top: 20px;
+}
+
+.color-repair-model .model-options>.submit{
+    border: 2px solid #D39983;
+    background-color: #fff;
+    color: #D39983;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 35px;
+    width: 118px;
+    border-radius: 6px;
+    letter-spacing: 2px;
+}

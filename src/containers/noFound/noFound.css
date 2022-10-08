@@ -1,0 +1,34 @@
+.animated-router-container{
+    height: 100%;
+}
+
+.no-found{
+    height: 100%;
+    overflow: hidden;
+}
+
+.no-found>.found-part{
+    height: 100%;
+    background-image: url('../../assets/img/no-found/foundbackground.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.no-found>.found-part>.found-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+
+.no-found>.found-part>.found-content>img{
+    width: 150px;
+}
+
+.no-found>.found-part>.found-content>span{
+    font-weight: bold;
+    font-size: 18px;
+    color: #CF9D85;
+    margin-top: 20px;
+}

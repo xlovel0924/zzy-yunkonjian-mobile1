@@ -1,0 +1,24 @@
+.r-sea-code .seaCode-content{
+  /* width: 100%; */
+  /* height: calc(100vh - 132px); */
+  /* margin-top: 25px; */
+  /* background: #fff; */
+  touch-action: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  overflow: hidden;
+  z-index: 0;
+}
+#address{    
+  position: absolute;
+  top: 30px;
+  left: 5%;
+  width: 90%;
+  height: 45px;
+  z-index: 999999;
+  background-color: #ffffff;
+  border-radius: 8px;
+}

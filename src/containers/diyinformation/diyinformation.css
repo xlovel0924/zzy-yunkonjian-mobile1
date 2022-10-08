@@ -1,0 +1,76 @@
+.makemudihead {
+    font-size: 18px;
+    font-family: Source Han Serif CN;
+    font-weight: 400;
+    color: #000000;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 0.826667rem;
+}
+
+.makemudiForm div {
+    font-size: 14px;
+    font-family: Source Han Serif CN;
+    font-weight: 400;
+    color: #333333;
+    line-height: 30px;
+}
+
+.makemudiinput {
+    width: 230px;
+    height: 43px;
+    background: rgba(71, 183, 252, 0);
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.makemudiForm {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 0.5rem;
+
+}
+
+.makemuditext {
+    width: 3.133333rem;
+    height: 13px;
+    margin-left: 10px;
+    line-height: 1.3rem;
+    text-align: center;
+}
+
+.makemudi {
+
+    left: 15px;
+    width: 9.2rem;
+    height: 9.506667rem;
+    background: #FFFFFF;
+    border-radius: 0.266667rem;
+    margin: 0 auto;
+    /* margin-top: -193px; */
+    position: fixed;
+    /* left: -50%; */
+    z-index: 2;
+    top: 148px;
+
+    
+}
+
+.makemudibuttom {
+    position: fixed;
+    width: 9.2rem;
+    height: 1.173333rem;
+    border-radius: 0.266667rem;
+    background-color: #47B7FC;
+    border: 0;
+    margin-left: 0.4rem;
+    font-size: 0.48rem;
+    font-family: Source Han Serif CN;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 0.133333rem;
+    bottom: 96px;
+}
+

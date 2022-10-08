@@ -1,0 +1,98 @@
+.find-root {
+    background: url(../../../assets/img/yun-find-root/bg.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;bottom: 0;
+    left: 0;right: 0; 
+    color: #6B6B6B;
+}
+
+.find-root-top {
+    display: flex;
+    padding: 20px 59px 20px 20px;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.find-root-top  .search {
+    background-color: #fff !important;
+    border-radius: 14px;
+    height: 32px !important;
+    min-height: 32px;
+    width: 100%;
+    flex: 1;
+    padding: 0 -14px;
+}
+
+.find-root-list {
+    padding: 20px;
+}
+
+.find-near-search > div:first-child {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    
+    font-size: 13px;
+}
+
+.find-near-search > div:first-child > img {
+    width: 6px;
+    height: 9px;
+}
+
+.find-near-search > div:nth-child(2) {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.find-near-search > div:nth-child(2) > div {
+    background-color: rgba(255,255,255,0.8);
+    padding: 5px 17px;
+    border-radius: 13px;
+    margin-top: 10px;
+    margin-right: 18px;
+}
+
+
+.find-list-item {
+    margin-top: 20px;
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 8px;
+}
+
+.find-title {
+    font-weight: bold;
+    color: #CC834B;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.find-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.find-content > div:first-child {
+    width: 336px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 1.5;
+}
+
+.fint-root-search-list {
+    border-radius: 6px;
+    background-color: rgba(255,255,255,0.88);
+}
+
+.fint-root-search-item {
+    border-bottom: 1px solid rgba(153,153,153,0.3);
+    padding: 11px 20px;
+}

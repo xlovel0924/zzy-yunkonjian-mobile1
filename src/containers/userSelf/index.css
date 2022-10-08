@@ -1,0 +1,303 @@
+.user-self{
+    height: 100%;
+    /* background-image: url("../../assets/img/cloud-memorial/home-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+    /* padding: 20px 20px 0px 20px; */
+    background-color: #fff;
+    /* margin-bottom: 60px; */
+}
+
+.viewer-footer{
+    display: none;
+}
+
+/* 第一部分 */
+.user-self .user-self-content>.part-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFF1D7;
+    padding: 10px 20px 0px 20px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.user-self .user-self-content>.part-one>.user-self-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.user-self .user-self-content>.part-one>.user-self-title>.big-title{
+   color: #333333;
+   font-size: 18px;
+   font-weight: bold;
+}
+
+.user-self .user-self-content>.part-one>.user-self-title>img{
+    width: 28px;
+}
+
+.user-self .user-self-content>.part-one>.infos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.user-self .user-self-content>.part-one>.infos .img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 8px;
+    border-radius: 50%;
+}
+
+.user-self .user-self-content>.part-one>.infos>.desc{
+    color: #333333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 3;
+}
+
+.user-self .user-self-content>.part-one>.infos>.desc>.left{
+    display: flex;
+    flex-direction: column;
+}
+
+/* 未登录 */
+.user-self .user-self-content>.part-one>.infos>.desc>.left>.big-title{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+.user-self .user-self-content>.part-one>.infos>.desc>.left>.small-title{
+    color: #666666;
+    font-size: 11px;
+    margin-top: 8px;
+    font-weight: bold;
+    font-family:  PingFangSC-Regular, sans-serif;
+    
+}
+
+/* 已登录 */
+.user-self .user-self-content>.part-one>.infos>.desc>.right>img{
+    width: 7px;
+    height: 13px;
+}
+
+.user-self .user-self-content>.part-one>.vip{
+    height: 40px;
+    border-radius: 6px;
+    background-color: #413F40;
+    color: #F1C68E;
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.user-self .user-self-content>.part-one>.vip>.vip-title{
+    font-size: 16px;
+}
+
+.user-self .user-self-content>.part-one>.vip>.vip-options{
+    background-color: #F8D492;
+    font-size: 12px;
+    color: #994B1B;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family:  PingFangSC-Regular, sans-serif;
+}
+
+/* 第二部分 */
+.user-self .user-self-content>.part-two{
+    padding: 0px 20px;
+}
+
+.user-self .user-self-content>.part-two>.list{
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 0px 6px 6px;
+    box-shadow: 0px 0px 8px 0.5px rgba(170, 170, 170, 0.1600);
+}
+
+.user-self .user-self-content>.part-two>.list>.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-self .user-self-content>.part-two>.list>.item>img{
+    width: 27px;
+    height: 27px;
+    margin-right: 5px;
+}
+
+.user-self .user-self-content>.part-two>.list>.item>span{
+    color: #333333;
+    font-size: 11px;
+    white-space: nowrap;
+    font-weight: bold;
+    font-family:  PingFangSC-Regular, sans-serif;
+}
+
+.user-self .user-self-content>.part-two>.progress{
+    padding: 15px 0px;
+}
+
+.user-self .user-self-content>.part-two>.progress>.show-infos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+.user-self .user-self-content>.part-two>.progress>.show-infos>.left{
+    color: #3A394D;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.user-self .user-self-content>.part-two>.progress>.show-infos>.right{
+    color: #999999;
+    font-size: 12px;
+    font-weight: bold;
+    font-family:  PingFangSC-Regular, sans-serif;
+}
+
+.user-self .user-self-content>.part-two>.progress .am-progress-outer{
+    background-color: #EEEEEE;
+    border-radius: 3px;
+    height: 6px;
+}
+
+.user-self .user-self-content>.part-two>.progress .am-progress-bar{
+    background-color: #CF9D85;
+    border: 1px solid transparent;
+    height: 4px !important;
+    border-radius: 3px;
+}
+
+/* 第三部分 */
+.user-self .user-self-content>.part-three{
+    margin: 10px 20px;
+    padding: 15px;
+    box-shadow: 0px 0px 8px 0.5px rgba(170, 170, 170, 0.1600);
+    border-radius: 6px;
+}
+
+.user-self .user-self-content>.part-three>.part-title{
+    font-size: 14px;
+    color: #3A394D;
+    margin-bottom: 10px;
+}
+
+.user-self .user-self-content>.part-three>.list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.user-self .user-self-content>.two>.list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.user-self .user-self-content>.two>.list>.item{
+    margin-right: 18px;
+}
+
+.user-self .user-self-content>.part-three>.list>.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    width: 20%;
+    margin-top: 15px;
+}
+
+.user-self .user-self-content>.part-three>.list>.item>img{
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    margin-bottom: 11px;
+}
+
+.user-self .one-icon0{
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.user-self .two-icon1{
+    width: 24px !important;
+    height: 24px !important;
+}
+
+.user-self .user-self-content>.part-three>.list>.item>span{
+    color: #3A394D;
+    font-size: 11px;
+    white-space: nowrap;
+    font-weight: bold;
+    font-family:  PingFangSC-Regular, sans-serif;
+}
+
+.service-model {
+    height: 260px;
+   
+}
+
+.service-model >.am-modal-content {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.service-model >.am-modal-content .model-content{
+    height: 80%;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-model>.am-modal-content .model-content>.nickname{
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.service-model>.am-modal-content .model-content>.desc{
+    color: #333333;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 50px 0px;
+}
+
+.service-model>.am-modal-content .model-content>.submit{
+    width: 118px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 2px solid #D39983;
+    color: #D39983;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}

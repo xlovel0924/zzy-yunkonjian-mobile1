@@ -1,0 +1,68 @@
+.confirm {
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0;right: 0;
+    background: url(../../../assets/img/yun-home/bg-home.png);
+    background-size: 100% 100%;
+    padding: 0 20px;
+}
+
+.center {
+    margin-top: 155px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px #E9D9C0;
+    text-align: center;
+    padding: 13px 0;
+    background-color: rgba(255,255,255,0.2);
+}
+
+.center > div:first-child {
+    font-weight: bold;
+    font-size: 15px;
+    color: #3A394D;
+    letter-spacing: 2px;
+}
+
+.center > div:nth-child(2) {
+    font-size: 9px;
+    margin-top: 5px;
+    color: #333333;
+
+}
+
+.center > div:last-child {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 13px;
+}
+
+.center > div:last-child > div {
+    padding: 7px 44px;
+    margin-left: 14px;
+    border-radius: 6px;
+    border: 1px solid #CF9D85;
+    color: #CF9D85;
+}
+
+
+.select {
+    background-color: #CF9D85;
+    color: #FFFFFF !important;
+}
+
+.next-btn {
+    text-align: center;
+    padding: 6px 0;
+    background-color: #CF9D85;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+.pdlr-0 {
+    padding-left: 0;
+    padding-right: 0;
+}

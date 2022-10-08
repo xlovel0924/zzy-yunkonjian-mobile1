@@ -1,0 +1,101 @@
+.space-time-mail-detail {
+    background: url(../../../assets/img/yun-homeTree/bg-detail.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;bottom: 0;
+    left: 0;right: 0;
+}
+
+.space-time-mail-detail-container{
+    position: absolute;
+    left:20px;
+    right:20px;
+    top: 50px;
+    bottom: 37px;
+    padding: 20px 20px;
+    border-radius: 6px;
+    background-color: rgba(255,255,255,0.6);
+    overflow: hidden;
+}
+
+.mailDetailTitle{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+
+
+.mailDetailInfoTitle{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mailDetailInfoTitle-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ECD8CE;
+    overflow: hidden;
+}
+.mailDetailInfoTitle-titleBox{
+    width: calc(100% - 200px);
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+.mailDetailInfoTitle-titleName{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.mailDetailInfoTitle-titleTime{
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+    color: #333;
+    border-radius: 10px;
+    line-height: 20px;
+}
+
+.space-time-mail-listItem-follow{
+    width: 110px;
+    font-size: 12px;
+    color: #333;
+    text-align: right;
+    line-height: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.space-time-mail-detail-followBtn{
+    padding: 0 10px;
+    margin: 20px 0;
+    border-radius: 10px;
+    color: rgb(108,79,61);
+    background-color: #D8AF98;
+}
+
+.space-time-mail-detail-main{
+    font-size: 12px;
+    line-height: 18px;
+    text-indent:2em;
+    word-wrap: break-word;
+    word-break: normal;
+}

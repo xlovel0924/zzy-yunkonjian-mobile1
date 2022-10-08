@@ -1,0 +1,35 @@
+.info-content{
+  width: 100%;
+  height: 100%;
+  margin-top: 79px;
+}
+
+.info-content .am-list-item img {
+  width: 30px;
+  margin-top: -4px;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+
+.info-content .am-list-item,.info-input .am-list-item .am-input-control input{
+  padding: 0px !important;
+}
+.info-content .am-list-item .am-list-line .am-list-extra{
+  overflow: initial;
+}
+.info-input .am-input-label{
+  width: 55px !important;
+}
+.info-split{
+  width: 100%;
+  height: 26px;
+  line-height: 26px;
+  font-size: 14px;
+  padding: 5px 20px;
+  background: #f1f1f1;
+}
+.info-div{
+  padding: 0 20px;
+  background: #fff;
+}

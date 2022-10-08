@@ -1,0 +1,78 @@
+.r-attendance .attendance-content{
+  /* width: 100%; */
+  /* height: calc(100vh - 132px); */
+  /* margin-top: 25px; */
+  /* background: #fff; */
+  touch-action: none;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+#attendanceMap :global(.leaflet-top){
+  display: none;
+}
+.bottomSign{
+  position: absolute;
+  padding: 20px 15px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 264px;
+  background: #fff;
+  z-index: 1000;
+}
+#signAddress{    
+  font-size: 14px;
+  color: #9a9a9a;
+}
+
+.btnRefresh{
+  position: absolute;
+  top: -50px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+}
+
+.signLeft{
+  float: left;
+  font-size: 14px;
+  color:#9a9a9a;
+  width: 96px;
+  height: 120px;
+}
+
+.signCenter{
+  float: left;
+  width: 10px;
+  height: 92px;
+}
+
+.signRight{
+  float: left;
+  margin-left: 14px;
+  width: calc(100% - 120px);
+  min-height: 120px;
+}
+
+.signInfo{
+  width: 100%;
+  height: 46px;
+}
+
+.signTime{
+  color: #343434;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.signInAddress{
+  color: #9a9a9a;
+  font-size: 12px;
+}

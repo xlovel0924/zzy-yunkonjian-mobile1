@@ -1,0 +1,90 @@
+.animated-router-container{
+    height: 100%;
+}
+
+.cloud-martyrs{
+    background: url(../../assets/img/yun-home/bg-home.png) no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    padding-bottom: 40px;
+}
+
+.martyrs-infos>.publicity-figure>img{
+    width: 104%;
+    margin-left: -15px;
+}
+
+.martyrs-infos>.part-two>.item{
+    background-color: rgb(255, 255, 255, 0.6);
+    height: 100px;
+    margin: 0px 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 3px 0px #E9D9C0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 20px;
+    align-items: center;
+}
+
+.martyrs-infos>.part-two>.item>.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.martyrs-infos>.part-two>.item>.left>img{
+    width: 30px;
+    height: 25px;
+}
+
+.martyrs-infos>.part-two>.item>.left>.desc{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.martyrs-infos>.part-two>.item>.left>.desc>span:first-child{
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+.martyrs-infos>.part-two>.item>.left>.desc>span:last-child{
+    font-size: 10px;
+    color: rgba(102, 102, 102, 1);
+    margin-top: 10px;
+}
+
+.martyrs-infos>.part-two>.item>.right{
+    background-color: #F0E4CB;
+    border-radius: 50%;
+    padding: 7px 10px;
+    text-align: center;
+}
+
+.martyrs-infos>.part-two>.item>.right>img{
+    width: 6px;
+}
+
+.martyrs-infos>.part-three{
+    margin: 0px 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255, 0.66);
+    display: flex;
+    flex-direction: column;
+    padding: 8px 20px;
+    align-items: center;
+    padding: 40px 0px 10px 0px;
+}
+
+.martyrs-infos>.part-three>.item{
+    color: rgba(102, 102, 102, 1);
+    margin-bottom: 20px;
+    padding: 5px 0px;
+    width: 90%;
+    white-space: nowrap;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.6);
+} 

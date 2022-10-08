@@ -1,0 +1,25 @@
+.about-content{
+  text-align: center;
+  font-size: 14px;
+  color: #888888;
+}
+
+.about-protocol{
+  color: #108ee9;
+  margin-top: 280px;
+}
+.about-pro{
+  color: #108ee9;
+}
+.about-content .am-list-item img{
+  width: 14px;
+  height: 14px;
+}
+.brodercolor {
+  width: 50px;
+  float: left;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+  border:1px solid  #0088FE ;
+} 

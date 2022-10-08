@@ -1,0 +1,44 @@
+.animated-router-container{
+    height: 100%;
+}
+
+.photo-studio-home-page {
+    background: url("../../../assets/img/yun-photo/base-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.photo-studio-home-page>.photo-content{
+    margin: 20px;
+    padding-top: 50px;
+}
+
+.photo-studio-home-page>.photo-content>.title-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-studio-home-page>.photo-content>.title-img > img {
+    width: 249px;
+}
+
+.photo-studio-home-page>.photo-content>.title-img > div {
+    letter-spacing: 4px;
+    margin-top: 8px;
+}
+
+.photo-studio-home-page>.photo-content>.go{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    height: 40px;
+}
+
+.photo-studio-home-page>.photo-content>.go>img{
+    height: 40px;
+}

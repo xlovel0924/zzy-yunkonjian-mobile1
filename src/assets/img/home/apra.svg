@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #999;
+      }
+
+      .cls-2 {
+        fill: #999;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="组_888" data-name="组 888" transform="translate(-19 -196)">
+    <g id="组_659" data-name="组 659" transform="translate(-2)">
+      <g id="组_656" data-name="组 656" transform="translate(23 198)">
+        <g id="椭圆_9" data-name="椭圆 9" class="cls-1" transform="translate(0 0)">
+          <circle class="cls-5" cx="9" cy="9" r="9"/>
+          <circle class="cls-4" cx="9" cy="9" r="8.5"/>
+        </g>
+        <path id="路径_961" data-name="路径 961" class="cls-2" d="M2.12,0A2.12,2.12,0,1,1,0,2.12,2.12,2.12,0,0,1,2.12,0Z" transform="translate(6.88 6.88)"/>
+        <g id="椭圆_75" data-name="椭圆 75" class="cls-3" transform="translate(2.541 2.541)">
+          <circle class="cls-5" cx="6.459" cy="6.459" r="6.459"/>
+          <circle class="cls-4" cx="6.459" cy="6.459" r="5.959"/>
+        </g>
+      </g>
+    </g>
+    <rect id="矩形_627" data-name="矩形 627" class="cls-4" width="22" height="22" transform="translate(19 196)"/>
+  </g>
+</svg>

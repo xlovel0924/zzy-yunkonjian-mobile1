@@ -1,0 +1,107 @@
+.memorial-home{
+    background-image: url("../../../assets/img/cloud-memorial/home-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+}
+
+.memorial-home>.memorial-home-content>.content-publicity{
+    border: 1px solid transparent;
+}
+
+.memorial-home>.memorial-home-content>.content-publicity>img{
+    width: 100%;
+    height: 100%;
+}
+
+.memorial-home>.memorial-home-content>.content-nav{
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.memorial-home>.memorial-home-content>.content-nav>.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.memorial-home>.memorial-home-content>.content-nav>.item>span{
+    font-size: 14px;
+    color: #666666;
+}
+
+.memorial-home>.memorial-home-content>.content-nav>.item>.active{
+    color: #CF9D85;
+    font-weight: bold;
+}
+
+.memorial-home>.memorial-home-content>.content-nav>.item>hr{
+    width: 70px;
+    height: 0.08rem !important;
+    background-color: #CF9D85;
+    border: none;
+}
+
+.memorial-home>.memorial-home-content>.content-infos{
+    background-color: rgb(255, 255, 255,0.6);
+    margin: 15px;
+    border-radius: 10px;
+    border: 1px solid #E5D5BC;
+}
+
+.memorial-home>.memorial-home-content>.content-infos>.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #EDD6B2;
+}
+
+.memorial-home>.memorial-home-content>.content-infos>.item>.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.memorial-home>.memorial-home-content>.content-infos>.item>.left>.part-one>img{
+    width: 85px;
+    margin-right: 10px;
+}
+
+.memorial-home>.memorial-home-content>.content-infos>.item>.left.part-two{
+    color: #333333;
+}
+
+.memorial-home>.memorial-home-content>.content-infos>.item>.left>.part-two>.big-title{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.memorial-home>.memorial-home-content>.content-infos>.item>.left>.part-two>.address{
+    font-size: 8px;
+    margin: 6px 0px;
+}
+
+.memorial-home>.memorial-home-content>.content-infos>.item>.left>.part-two>.distance{
+    color: #666666;
+    font-size: 8px;
+}
+
+.memorial-home>.memorial-home-content>.content-infos>.item>.right>div{
+    width: 20px;
+    height: 20px;
+    background-color: #EDD6B2;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.memorial-home>.memorial-home-content>.content-infos>.item>.right>div>img{
+    width: 6px;
+}

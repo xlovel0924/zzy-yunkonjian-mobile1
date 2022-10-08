@@ -1,0 +1,57 @@
+.focus-me {
+    background: url(../../../assets/img/yun-home/bg-home.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;bottom: 0;
+    left: 0;right: 0;
+    color: #6B6B6B;
+    padding: 0 16px;
+}
+.focus-me-list {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 100%;
+}
+
+.focus-me-list > .focus-me-img {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.focus-me-img > img {
+    width: 40px;
+    height: 40px;
+}
+
+.focus-me-item {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-top: 4px;
+    justify-content: space-between;
+}
+
+.focus-me-container {
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 6px;
+    padding: 0 15px 25px;
+}
+
+.focus-me-container > div{
+
+    box-sizing: border-box;
+}
+
+.focus-me-container > div:first-child ,.focus-me-list {
+    color: #CF9D85;
+    font-size: 13px;
+    font-weight: bold;
+    border-bottom: 1px solid #979797;
+    padding: 10px 0;
+}
+
